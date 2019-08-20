@@ -1,0 +1,12 @@
+<ul class="post-list">
+{% for post in site.posts %}
+    <li class="post-list__item m-b-0">
+      <a class="" href="{{ post.url }}">
+        <p class="m-b-1">{{ post.date | date: "%d %B %Y" }}</p>
+        <h3 class="m-t-0">{{ post.title }}</h3>
+        <p class="subtitle m-b-2">{{ post.description }}</p>
+        <p class="bold m-b-0">By {{ site.data.authors[post.author].name }}</p>
+      </a>
+    </li>
+{% endfor %}
+</ul>

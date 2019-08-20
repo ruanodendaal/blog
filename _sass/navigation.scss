@@ -1,0 +1,8 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+    & a {
+        text-decoration: none;
+    }
+}

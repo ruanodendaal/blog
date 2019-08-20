@@ -1,0 +1,20 @@
+name: Ruan's blog
+url: odendaal.uk
+cdn: https://djmmlc8gcwtqv.cloudfront.net/imgs/ws-blog/
+
+defaults:
+  - scope:
+      type: "pages"
+    values:
+      layout: "default"
+      share_img: "bla.png"
+  - scope:
+      type: "posts"
+    values:
+      layout: "post"
+      share_img: "bla.png"
+  - scope:
+      type: "authors"
+    values:
+      layout: "author"
+      share_img: "bla.png"

@@ -1,0 +1,50 @@
+---
+title: Blog homepage
+description: Ruan Odendaal's blog
+image-name: meta_image.png
+---
+
+<div class="layout m-b-6">
+    <div class="layout__item layout__item--2-of-12@m">
+      <img src="{{ site.cdn }}{{  site.data.authors.ruan.avatar  }}" alt="Picture of {{ page.name }}">
+    </div>
+    <div class="layout__item layout__item--6-of-12@m">
+      <h1>{{  site.data.authors.ruan.name  }}</h1>
+      Part Engineer, Designer and Product Manager at <a href="https://pusher.com">Pusher</a>. I care deeply about UX, UI and delivering impactful work that is win-win for the business and our customers.
+    </div>
+</div>
+
+<div class="layout">
+  {% for post in site.posts %}
+    {% if post.tags contains "featured" %}
+    <div class="layout__item layout__item--12-of-12 layout__item--6-of-12@m">
+      <div class="card m-b-1 m-b-0@m" style="background-image: linear-gradient(90deg, rgba(0,0,0,.5), rgba(0,0,0,.5)), url({{ site.cdn }}{{ post.image-name }})">
+        <div>
+            <h3 class="card__heading"><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <p>{{ post.description }}</p>
+        </div>
+        <p class="bold m-b-0 o-1">By {{ site.data.authors[post.author].name }}</p>
+      </div>
+    </div>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<div class="layout">
+  <div class="m-t-6 layout__item layout__item--12-of-12 layout__item--7-of-12@m">
+    <h2>All posts</h2>
+    <ul class="post-list">
+      {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+      {% for post in filtered_posts %}
+        <li class="post-list__item m-b-0">
+          <a class="" href="{{ post.url }}">
+            <p class="m-b-1">{{ post.date | date: "%d %B %Y" }}</p>
+            <h3 class="m-t-0">{{ post.title }}</h3>
+            <p class="subtitle m-b-2">{{ post.description }}</p>
+            <p class="bold m-b-0">By {{ site.data.authors[post.author].name }}</p>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>

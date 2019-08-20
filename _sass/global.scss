@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: maison-neue,sans-serif;
+    font-size: 18px;
+    color: #000000d6;
+}
+
+a {
+    cursor: pointer;
+    color: inherit;
+}
+
+img {
+  width: 100%;
+}
+
+.subtitle {
+  color: #0000008a;
+}
+
+blockquote {
+  font-style: italic;
+}
+
+blockquote p {
+  display: inline-block;
+  margin: 1rem 0 2rem;
+  font-size: 20px;
+  line-height: 1.6;
+  border-left: 2px solid #4E42FF;
+  padding-left: 12px;
+  @media (min-width: map-get($breakpoints, m )) {
+    margin: 1rem 2rem 2rem;
+  }
+}

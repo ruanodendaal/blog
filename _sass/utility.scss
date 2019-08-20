@@ -1,0 +1,72 @@
+// Margins
+
+@for $i from 0 through 12 {
+    
+    .m-#{$i} {
+        margin: $spacing-unit * $i;
+    }
+    .m-t-#{$i} {
+        margin-top: $spacing-unit * $i;
+    }
+    .m-r-#{$i} {
+        margin-right: $spacing-unit * $i;
+    }
+    .m-b-#{$i} {
+        margin-bottom: $spacing-unit * $i;
+    }
+    .m-l-#{$i} {
+        margin-left: $spacing-unit * $i;
+    }
+    .m-v-#{$i} {
+        margin-top: $spacing-unit * $i;
+        margin-bottom: $spacing-unit * $i;
+    }
+    .m-h-#{$i} {
+        margin-right: $spacing-unit * $i;
+        margin-left: $spacing-unit * $i;
+    }
+}
+
+@each $size, $width in $breakpoints {
+    
+    @media (min-width: $width) {
+        
+        @for $i from 0 through 12 {
+            .m-#{$i}\@#{$size} {
+                margin: $spacing-unit * $i;
+            }
+            .m-t-#{$i}\@#{$size} {
+                margin-top: $spacing-unit * $i;
+            }
+            .m-r-#{$i}\@#{$size} {
+                margin-right: $spacing-unit * $i;
+            }
+            .m-b-#{$i}\@#{$size} {
+                margin-bottom: $spacing-unit * $i;
+            }
+            .m-l-#{$i}\@#{$size} {
+                margin-left: $spacing-unit * $i;
+            }
+            .m-v-#{$i}\@#{$size} {
+                margin-top: $spacing-unit * $i;
+                margin-bottom: $spacing-unit * $i;
+            }
+            .m-h-#{$i}\@#{$size} {
+                margin-right: $spacing-unit * $i;
+                margin-left: $spacing-unit * $i;
+            }
+        }
+    }
+}
+
+// Typography
+
+.bold {
+    font-weight: bold;
+}
+
+// opacity
+
+.o-1 {
+    opacity: 1;
+}

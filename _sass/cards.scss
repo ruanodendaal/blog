@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #4E42FF;
+    background-size: cover;
+    color: white;
+    padding: 48px;
+    min-height: 350px;
+    border-radius: 4px;
+    & a {
+        text-decoration: none;
+    }
+}
+
+.card__heading {
+  margin-top: 0;
+}
