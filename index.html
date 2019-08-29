@@ -33,18 +33,6 @@ image-name: profile/ruan.png
 <div class="layout">
   <div class="m-t-6 layout__item layout__item--12-of-12 layout__item--7-of-12@m">
     <h2>All posts</h2>
-    <ul class="post-list">
-      {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
-      {% for post in filtered_posts %}
-        <li class="post-list__item m-b-0">
-          <a class="" href="{{ post.url }}">
-            <p class="m-b-1">{{ post.date | date: "%d %B %Y" }}</p>
-            <h3 class="m-t-0">{{ post.title }}</h3>
-            <p class="subtitle m-b-2">{{ post.description }}</p>
-            <p class="bold m-b-0">By {{ site.data.authors[post.author].name }}</p>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
+    {% include post-list.html %}
   </div>
 </div>
