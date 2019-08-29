@@ -1,5 +1,5 @@
 name: Ruan's blog
-url: odendaal.uk
+url: https://odendaal.uk
 cdn: https://d3eeewfm2t14hd.cloudfront.net/blog/
 
 defaults:
@@ -7,14 +7,7 @@ defaults:
       type: "pages"
     values:
       layout: "default"
-      share_img: "bla.png"
   - scope:
       type: "posts"
     values:
       layout: "post"
-      share_img: "bla.png"
-  - scope:
-      type: "authors"
-    values:
-      layout: "author"
-      share_img: "bla.png"
