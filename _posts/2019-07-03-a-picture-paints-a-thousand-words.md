@@ -2,7 +2,7 @@
 title: A picture paints a thousand words
 description: Whether you want it to or not, every word you use, line you draw or interaction you create communicates something. If nothing else be intentional about what you create.
 author: ruan
-image-name: paints-1000-words.jpg
+image-name: posts/paints-1000-words.jpg
 tags: [design, brand, collaboration, featured]
 ---
 
@@ -50,7 +50,7 @@ We created a list of words that came to mind when thinking of the above:
 
 This helped shape our thinking about our constraints/position on a sliding scale for “level one”:
 
-![]({{ site.cdn }}visual-identity-scale.jpeg)
+![]({{ site.cdn }}posts/visual-identity-scale.jpeg)
 
 - More **geometric** than **organic**
 - More **contemporary** than **retro**

@@ -3,7 +3,7 @@ title: One size doesn't fit all
 description: Life is full of lessons—some we choose to ignore, and others we act upon. This lesson is one that I’m personally acting on, and my team are the catalyst.
 author: ruan
 tags: [agile, projects]
-image-name: one-size.jpeg
+image-name: posts/one-size.jpeg
 ---
 
 Life is full of lessons&mdash;some we choose to ignore, and others we act upon. This lesson is one that I’m personally acting on, and my team are the catalyst.

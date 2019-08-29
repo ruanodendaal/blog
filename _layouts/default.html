@@ -3,7 +3,6 @@
   <head>
     <meta charset="utf-8">
     <meta property="description" name="description" content="{{ page.description }}" />
-
     <meta property="og:title" content="{{ page.title }}" />
     <meta property="og:description" name="description" content="{{ page.description }}" />
     <meta property="og:type" content="website" />
@@ -13,14 +12,14 @@
     <meta key="og:image" property="og:image" content="{{ site.cdn }}{{ page.image-name }}" />
 
     <meta key="twitter:card" name="summary_large_image" content="summary_large_image" />
-    <meta key="twitter:site" name="@pusher" content="@pusher" />
-    <meta key="twitter:creator" name="@{{ page.author_twitter_handle }}" content="@{{ page.author_twitter_handle }}" />
+    <meta key="twitter:site" name="@{{  site.data.authors.ruan.twitter  }}" content="@{{  site.data.authors.ruan.twitter  }}" />
+    <meta key="twitter:creator" name="@{{  site.data.authors.ruan.twitter  }}" content="@{{  site.data.authors.ruan.twitter  }}" />
     <meta key="twitter:title" name="{{ page.title }}" content="{{ page.title }}" />
     <meta key="twitter:description" name="{{ page.description }}" content="{{ page.description }}" />
     <meta key="twitter:image" name="{{ page.image-name }}" content="{{ site.cdn }}{{ page.image-name }}" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="https://d2gzdqqnzcqjkr.cloudfront.net/fonts/style.css" />
+    <link rel="stylesheet" href="{{ site.cdn }}fonts/style.css" />
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="android-chrome" sizes="512x512" href="{{ site.cdn }}android-chrome-512x512.png">
     <link rel="android-chrome" sizes="192x192" href="{{ site.cdn }}android-chrome-192x192.png">
@@ -28,7 +27,7 @@
     <link rel="icon" type="image/png" sizes="32x32" href="{{ site.cdn }}favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="{{ site.cdn }}favicon-16x16.png">
     <link rel="icon" type="image/png" href="{{ site.cdn }}favicon.ico" />
-    <title>Workshop Blog - {{ page.title }}</title>
+    <title>Ruan's Blog - {{ page.title }}</title>
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
     {% endif %}
