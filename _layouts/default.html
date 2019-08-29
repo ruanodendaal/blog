@@ -21,12 +21,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="{{ site.cdn }}fonts/style.css" />
     <link rel="stylesheet" href="/assets/css/index.css">
-    <link rel="android-chrome" sizes="512x512" href="{{ site.cdn }}android-chrome-512x512.png">
-    <link rel="android-chrome" sizes="192x192" href="{{ site.cdn }}android-chrome-192x192.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="{{ site.cdn }}apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="{{ site.cdn }}favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="{{ site.cdn }}favicon-16x16.png">
-    <link rel="icon" type="image/png" href="{{ site.cdn }}favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/manifest/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/manifest/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/manifest/favicon-16x16.png">
+    <link rel="manifest" href="/assets/manifest/site.webmanifest">
     <title>Ruan's Blog - {{ page.title }}</title>
     {% if jekyll.environment == 'production' %}
       {% include analytics.html %}
@@ -35,7 +33,7 @@
   <body>
     <div class="wrap">
       <nav>
-        <a href="/">{% include ws-logo.html %}</a>
+        <a href="/">{% include logo.html %}</a>
         <div class="author-info author-info--link">
           <a href="https://twitter.com/{{  site.data.authors.ruan.twitter  }}">Twitter</a>
           <a href="https://www.linkedin.com/in/{{  site.data.authors.ruan.linkedin  }}">LinkedIn</a>
