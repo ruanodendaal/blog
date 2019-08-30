@@ -1,16 +1,19 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background: #4E42FF;
-    background-size: cover;
-    color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #4e42ff;
+  background-size: cover;
+  color: white;
+  padding: 32px;
+  min-height: 350px;
+  border-radius: 4px;
+  & a {
+    text-decoration: none;
+  }
+  @media all and (min-width: 760px) {
     padding: 48px;
-    min-height: 350px;
-    border-radius: 4px;
-    & a {
-        text-decoration: none;
-    }
+  }
 }
 
 .card__heading {

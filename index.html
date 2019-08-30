@@ -1,16 +1,16 @@
 ---
-title: Ruan Odendaal's blog
-description: This is my personal blog covering all unedited work experiences and thoughts.
+title: blog homepage
+description: This is my unedited personal blog space covering both work and life. I'm a Product Manager, Designer and Software Engineer. I care deeply about UX, UI and delivering impactful work that puts the customer at the center.
 image-name: profile/ruan.png
 ---
 
 <div class="layout m-b-6">
-    <div class="layout__item layout__item--2-of-12@m">
+    <div class="layout__item layout__item--6-of-12 layout__item--2-of-12@m">
       <img src="{{ site.cdn }}{{  site.data.authors.ruan.avatar  }}" alt="Picture of {{ page.name }}" class="index_avatar">
     </div>
     <div class="layout__item layout__item--6-of-12@m">
       <h1>{{  site.data.authors.ruan.name  }}</h1>
-      {{ page.description }}
+      <p>{{ page.description }}</p>
     </div>
 </div>
 
@@ -19,7 +19,7 @@ image-name: profile/ruan.png
     {% if post.tags contains "featured" %}
     <div class="layout__item layout__item--12-of-12 layout__item--6-of-12@m">
       <a href="{{ post.url }}">
-        <div class="card m-b-1 m-b-0@m" style="background-image: linear-gradient(90deg, rgba(0,0,0,.5), rgba(0,0,0,.5)), url({{ site.cdn }}{{ post.image-name }})">
+        <div class="card m-b-1 m-b-0@m" style="background-image: linear-gradient(90deg, rgba(0,0,0,.5), rgba(0,0,0,.6)), url({{ site.cdn }}{{ post.image-name }})">
           <div>
               <h3 class="card__heading">{{ post.title }}</h3>
               <p>{{ post.description }}</p>

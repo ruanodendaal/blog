@@ -3,7 +3,7 @@ title: A picture paints a thousand words
 description: Whether you want it to or not, every word you use, line you draw or interaction you create communicates something. If nothing else be intentional about what you create.
 author: ruan
 image-name: posts/paints-1000-words.jpg
-tags: [design, brand, collaboration, featured]
+tags: [design, brand, collaboration]
 ---
 
 We’ve been talking a lot recently about our visual identity and how we’re applying it to our designs. Over the last 18 months, we’ve changed our approach at least 3 times. This has been the result of going through a complete company rebrand and the resulting effort of applying these changes.
