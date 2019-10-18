@@ -18,7 +18,9 @@ We try to do it all. We pretend we’re prioritising. We spend our time trying t
 
 The reality is, you haven’t.
 
-The most common answer I’ve heard for having not done something, or succeeded is _time_. You had time, but at some point—consciously or unconsciously—you decided to prioritise something else. We say things to ourselves like “I won’t start that now as it’s too hard, but I can do these two things in 30 mins instead”.
+The most common answer I’ve heard for having not done something, or succeeded is _time_. You had time, but at some point—consciously or unconsciously—you decided to prioritise something else. We say things to ourselves like:
+
+> I won’t start that now as it’s too hard, but I can do these two things in 30 mins instead.
 
 ## Doing the right thing
 
