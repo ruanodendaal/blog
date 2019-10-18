@@ -3,7 +3,7 @@ title: How to stop wasting time in meetings, feedback, and making decisions.
 description: We all do it, we spend too much time debating things that ultimately are not urgent or important. How do we stop?
 author: ruan
 image-name: posts/time-wasting.jpg
-tags: [prioritisation, projects, collaboration, featured]
+tags: [prioritisation, projects, collaboration]
 ---
 
 We all do it: we spend too much time debating things that ultimately aren't urgent or important.
