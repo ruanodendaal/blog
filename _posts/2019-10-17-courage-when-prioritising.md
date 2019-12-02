@@ -1,6 +1,6 @@
 ---
 title: Why people can’t prioritise effectively—Courage
-description: Despite many books, blog posts and resources available about prioritisation, however, many people continue to get it so wrong.
+description: Despite many books, blog posts and resources available about prioritisation, many people continue to get it so wrong.
 author: ruan
 image-name: posts/courage.jpg
 tags: [prioritisation, time management, featured]
