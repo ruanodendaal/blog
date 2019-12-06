@@ -1,44 +1,52 @@
 h1 {
-    font-size: 28.83px;
-    margin-bottom: 16px;
-    @media (min-width: map-get($breakpoints, m )) {
-        font-size: 39.81px;
-    }
+  font-size: 28.83px;
+  margin-bottom: 16px;
+  @media (min-width: map-get($breakpoints, m )) {
+    font-size: 39.81px;
+  }
 }
 
 h2 {
-    font-size: 25.63px;
-    margin-top: 2rem;
-    margin-bottom: 8px;
-    @media (min-width: map-get($breakpoints, m )) {
-        font-size: 33.18px;
-    }
+  font-size: 25.63px;
+  margin-top: 2rem;
+  margin-bottom: 8px;
+  @media (min-width: map-get($breakpoints, m )) {
+    font-size: 33.18px;
+  }
 }
 
 h3 {
-    font-size: 22.78px;
-    margin-top: 2rem;
-    margin-bottom: 16px;
-    @media (min-width: map-get($breakpoints, m )) {
-        font-size: 27.65px;
-    }
+  font-size: 22.78px;
+  margin-top: 2rem;
+  margin-bottom: 16px;
+  @media (min-width: map-get($breakpoints, m )) {
+    font-size: 27.65px;
+  }
 }
 
 h4 {
-    font-size: 20.25px;
-    margin-top: 2rem;
-    margin-bottom: 16px;
-    @media (min-width: map-get($breakpoints, m )) {
-        font-size: 23.04px;
-    }
+  font-size: 20.25px;
+  margin-top: 2rem;
+  margin-bottom: 16px;
+  @media (min-width: map-get($breakpoints, m )) {
+    font-size: 23.04px;
+  }
 }
 
 p {
-    margin-bottom: 24px;
-    line-height: 1.5;
-    opacity: .85
+  margin-bottom: 24px;
+  line-height: 1.5;
+  opacity: 0.85;
+  .header-links {
+    text-decoration: underline;
+    color: #203fb9;
+    &:hover,
+    &:visited {
+      color: #65327f;
+    }
+  }
 }
 
 strong {
-    font-weight: bold;
+  font-weight: bold;
 }
