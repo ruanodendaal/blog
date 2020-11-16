@@ -1,6 +1,6 @@
 ---
 title: Truly listening during product development
-description: How lessons in life can continue to teach you about product development, listening to more than you want to hear.
+description: How lessons in life can continue to teach you about product development—listening to more than you ever expected.
 author: ruan
 image-name: posts/listening.jpg
 image-alt: A group of people holding a meeting
@@ -24,7 +24,7 @@ My son, let's call him 'L', has recently turned three and he (amongst other thin
 
 But this week he taught me something.
 
-In the last few months L has become more and more independent (nailing one item in the above list 💪). He now doesn't want any help when taking himself to the toilet. Except there is a problem: for weeks now he has been pulling reams of toilet paper off the roll and it was getting rather annoying.
+In the last few months L has become more and more independent (nailing one item in the above list 💪). He now doesn't want any help when taking himself to the toilet. Except there is a problem—for weeks now he has been pulling reams of toilet paper off the roll and it was getting rather annoying.
 
 It goes like this. **L**
 
