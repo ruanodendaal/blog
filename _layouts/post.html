@@ -1,28 +1,36 @@
 ---
 layout: default
 ---
+
 {% assign author = site.data.authors[page.author] %}
 <div class="layout">
-  <div class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered">
+  <div
+    class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered"
+  >
     <div class="m-t-1 m-b-2 m-b-4@m">
       <h1>{{ page.title }}</h1>
       <p class="subtitle">{{ page.description }}</p>
       {% if author %}
-        <div class="author-info">
-          <div class="avatar">
-            <img src="{{ site.cdn }}{{ author.avatar }}" alt="Picture of {{ author.name }}">
-            <p>Written by {{ author.name }}</p>
-          </div>
-          <p class="m-b-1">{{ page.date | date: "%d %B %Y" }}</p>
+      <div class="author-info">
+        <div class="avatar">
+          <img
+            src="{{ site.cdn }}{{ author.avatar }}"
+            alt="Picture of {{ author.name }}"
+          />
+          <p>Written by {{ author.name }}</p>
         </div>
+        <p class="m-b-1">{{ page.date | date: "%d %B %Y" }}</p>
+      </div>
       {% endif %}
     </div>
   </div>
   <div class="layout__item m-b-5">
-    <img src="{{ site.cdn }}{{ page.image-name }}" alt="{{ page.image-name }}"/>
+    <img src="{{ site.cdn }}{{ page.image-name }}" alt="{{ page.image-alt }}" />
   </div>
 
-  <div class="post layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered">
+  <div
+    class="post layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered"
+  >
     {{ content }}
     <div class="m-t-6 m-b-2">
       <ul class="tags">
@@ -33,8 +41,9 @@ layout: default
     </div>
   </div>
 
-
-  <div class="m-t-8 layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered">
+  <div
+    class="m-t-8 layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered"
+  >
     <h3 class="post-list__heading">Further reading</h3>
     {% include post-list.html %}
   </div>
