@@ -3,6 +3,7 @@ title: My user manual
 description: Let's all be a little more transparent. This is my manual—how I work, how to get the best out of me, how I communicate and how I handle feedback.
 author: ruan
 image-name: posts/user-manual.jpg
+image-alt: Individual mechanical pieces spread out
 tags: [prioritisation, collaboration, featured]
 ---
 
