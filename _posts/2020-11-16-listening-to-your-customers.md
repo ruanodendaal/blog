@@ -3,6 +3,7 @@ title: Truly listening during product development
 description: How lessons in life can continue to teach you about product development, listening to more than you want to hear.
 author: ruan
 image-name: posts/listening.jpg
+image-alt: A group of people holding a meeting
 tags: [product, customers, featured]
 ---
 
