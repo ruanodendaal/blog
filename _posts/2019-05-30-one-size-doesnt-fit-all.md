@@ -4,6 +4,7 @@ description: Life is full of lessons—some we choose to ignore, and others we a
 author: ruan
 tags: [agile, projects]
 image-name: posts/one-size.jpeg
+image-alt: A note pad and pencil
 ---
 
 Life is full of lessons&mdash;some we choose to ignore, and others we act upon. This lesson is one that I’m personally acting on, and my team are the catalyst.

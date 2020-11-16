@@ -3,7 +3,8 @@ title: Working remotely amidst COVID-19
 description: Amidst this difficult time, maybe COVID-19 becomes a catalyst for driving improved remote working at more companies 🤞
 author: ruan
 image-name: posts/remote-working.jpg
-tags: [remote working, time management, featured]
+image-alt: A coffee next to a laptop
+tags: [remote working, time management]
 ---
 
 This has been a topic on my blog list for some time now, however, with COVID-19 it seems more important than ever.
