@@ -1,6 +1,6 @@
 # blog
 
-Personal blog space, deployed using github pages
+Personal blog space, built using [Jekyll](https://jekyllrb.com) deployed using GitHub Pages
 
 ## Running
 
