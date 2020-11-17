@@ -1,10 +1,10 @@
 ---
 title: Truly listening during product development
-description: How lessons in life can continue to teach you about product development—listening to more than you ever expected.
+description: How lessons in life can teach you about product development—listening to more than you ever expected.
 author: ruan
 image-name: posts/listening.jpg
 image-alt: A group of people holding a meeting
-tags: [product, customers, featured]
+tags: [product, research, featured]
 ---
 
 This week I was reminded of the importance of listening to your customers from the most unlikely of places. **My son**.
@@ -28,7 +28,7 @@ In the last few months L has become more and more independent (nailing one item 
 
 It goes like this. **L**
 
-> Papa I'm going to the toilet and DON'T help me
+> Papa I'm going to the toilet and **DON'T** help me
 
 **Me**
 
