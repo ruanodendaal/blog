@@ -28,7 +28,7 @@ Let's all be a little more transparent. Below is my manual.
 - I'm a visual person so like to draw or map things out.
 - I apply ruthless prioritisation to everything! There are only so many hours in the day if it doesn't make the top of the list I forget & ignore it. I truly believe if it's important enough it will come back around.
 - When I'm given a large task/piece of work I like to discuss the broad scope and the underlying 'chunks' of work. I get lost in big tasks without breaking them down.
-- Related to ☝️ I'm great at starting and ending projects/work but can get lost or lose focus in the middle.
+- Related to ☝️ I'm great at starting and ending projects/work but can get lost or lose focus in the middle if the goals aren't clear.
 - I get excited by new ideas, but need to ask enough questions to understand the core goal(s) - don't mistake this for being negative, I just need to understand how things work and how it contributes to the wider company goals.
 - I like to do things quickly, ship it, get feedback and then iterate. People have different views on what is 'perfect' but we don't know until we implement it. So ship it—as long as we're measuring the impact.
 - If I've got headphones on I'm trying to stay focused on a task. I happy to be disturbed if important, however, please be considerate.
