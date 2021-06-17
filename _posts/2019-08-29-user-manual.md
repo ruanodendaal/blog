@@ -41,7 +41,8 @@ Let's all be a little more transparent. Below is my manual.
 
 ## How I communicate
 
-- I prefer direct communication
+- I prefer direct communication.
+- I don't shy away from difficult conversations.
 - I ask lots of questions and like to understand the root cause or the **why**.
 - Asynchronous communication kills me. I find context-switching difficult and it interrupts my **flow**. If I'm particularly deep in work I mute all notifications so I'm unlikely to respond to Slack or emails until I'm done.
 
