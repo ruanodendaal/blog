@@ -1,6 +1,6 @@
 ---
 title: My user manual
-description: Let's all be a little more transparent. This is my manual—how I work, how to get the best out of me, how I communicate and how I handle feedback.
+description: Let's all be a little more transparent. This is my manual—how I work, my leadership style, how to get the best out of me, how I communicate and how I handle feedback.
 author: ruan
 image-name: posts/user-manual.jpg
 image-alt: Individual mechanical pieces spread out
@@ -31,6 +31,13 @@ Let's all be a little more transparent. Below is my manual.
 - I like to do things quickly, ship it, get feedback and then iterate. People have different views on what is 'perfect' but we don't know until we implement it. So ship it—as long as we're measuring the impact.
 - If I've got headphones on I'm trying to stay focused on a task. I am happy to be disturbed if important, however, please be considerate.
 
+## My leadership style
+
+- I'm a servant leader. My job is to make my team successful, I lead through others.
+- I focus on **outcomes**, not output.
+- ~~Strong opinions, weakly held~~ —> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data.
+- I trust by default.
+
 ## How to get the most out of me
 
 - Articulate the customer value in the task at hand, who is it for and why do they need it?
@@ -48,10 +55,3 @@ Let's all be a little more transparent. Below is my manual.
 
 - I prefer critique over compliments as I like to know how to do it better. I'm very self-critical, however, the occasional praise for a job well done is appreciated.
 - I will ask for feedback often as value continuous improvement and personal growth.
-
-## My leadership style
-
-- I'm a servant leader. My job is to make my team successful, I lead through others.
-- I focus on **outcomes**, not output.
-- ~~Strong opinions, weakly held~~ —> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data.
-- I trust by default.
