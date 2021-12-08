@@ -20,8 +20,6 @@ Let's all be a little more transparent. Below is my manual.
 - Related to ☝️ sending me emails titled "Urgent" are completely useless. Email is not a good delivery mechanism for real urgent actions. Doing this tells me that it _really_ isn't urgent—if my house was on fire I wouldn't email the fire brigade.
 - I can get easily distracted, so work to keep distractions at a minimum.
 - I hate being invited to meetings with just a meeting name and no agenda. What is the objective? Meetings with no clear agenda or objectives are a waste of time.
-- I have strong opinions about a lot of things but I’m always up for a constructive debate, and I don’t mind changing my opinions when proven wrong.
-- I trust by default.
 
 ## How I work
 
@@ -31,13 +29,13 @@ Let's all be a little more transparent. Below is my manual.
 - Related to ☝️ I'm great at starting and ending projects/work but can get lost or lose focus in the middle if the goals aren't clear.
 - I get excited by new ideas, but need to ask enough questions to understand the core goal(s) - don't mistake this for being negative, I just need to understand how things work and how it contributes to the wider company goals.
 - I like to do things quickly, ship it, get feedback and then iterate. People have different views on what is 'perfect' but we don't know until we implement it. So ship it—as long as we're measuring the impact.
-- If I've got headphones on I'm trying to stay focused on a task. I happy to be disturbed if important, however, please be considerate.
+- If I've got headphones on I'm trying to stay focused on a task. I am happy to be disturbed if important, however, please be considerate.
 
 ## How to get the most out of me
 
 - Articulate the customer value in the task at hand, who is it for and why do they need it?
 - Give me some context and the specific objective(s). I almost always want to know **why** we're doing it, **who** is it for and **how** is it benefiting our customers.
-- Short meetings at a whiteboard can save a lot of back-and-forth.
+- Short meetings at a whiteboard can save a lot of back-and-forths.
 
 ## How I communicate
 
@@ -48,5 +46,12 @@ Let's all be a little more transparent. Below is my manual.
 
 ## How I handle feedback
 
-- I prefer critique over compliments as I like to know how to do it better. I'm very self-critical, however, the occasional praise for a job-well-done is appreciated.
+- I prefer critique over compliments as I like to know how to do it better. I'm very self-critical, however, the occasional praise for a job well done is appreciated.
 - I will ask for feedback often as value continuous improvement and personal growth.
+
+## My leadership style
+
+- I'm a servant leader. My job is to make my team successful, I lead through others.
+- I focus on **outcomes**, not output.
+- ~~Strong opinions, weakly held~~ —> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data.
+- I trust by default.
