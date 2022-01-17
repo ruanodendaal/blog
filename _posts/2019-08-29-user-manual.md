@@ -35,8 +35,8 @@ Let's all be a little more transparent. Below is my manual.
 
 - I'm a servant leader. My job is to make my team successful, I lead through others.
 - I focus on **outcomes**, not output.
-- ~~Strong opinions, weakly held~~ —> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data.
 - I trust by default.
+- ~~Strong opinions, weakly held~~ —> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data. Credit [Shreyas Doshi](https://twitter.com/shreyas/status/1467562879498928130)
 
 ## How to get the most out of me
 
@@ -50,6 +50,11 @@ Let's all be a little more transparent. Below is my manual.
 - I don't shy away from difficult conversations.
 - I ask lots of questions and like to understand the root cause or the **why**.
 - Asynchronous communication kills me. I find context-switching difficult and it interrupts my **flow**. If I'm particularly deep in work I mute all notifications so I'm unlikely to respond to Slack or emails until I'm done.
+
+## How I give feedback
+
+- I try to give feedback as soon as possible while the context is still fresh in our minds.
+- By default, I look for how things can improve. This can sometimes come across as overly critical, however, it is something I'm actively working on. I'll always suggest we ship something and learn i.e. progress over perfection.
 
 ## How I handle feedback
 
