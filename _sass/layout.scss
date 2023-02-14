@@ -1,5 +1,3 @@
-@use "sass:math";
-
 $wrapper-width: 1200px;
 
 $layout-columns: (12) !default;
@@ -40,87 +38,87 @@ $pushes: false !default;
 }
 
 %span-all {
-    width: percentage(math.div(1, 1));
+    width: percentage(1/1);
 }
 
 %one-half {
-    width: percentage(math.div(1, 2));
+    width: percentage(1/2);
 }
 
 %one-third {
-    width: percentage(math.div(1, 3));
+    width: percentage(1/3);
 }
 
 %two-thirds {
-    width: percentage(math.div(2, 3));
+    width: percentage(2/3);
 }
 
 %one-quarter {
-    width: percentage(math.div(1, 4));
+    width: percentage(1/4);
 }
 
 %two-quarters {
-    width: percentage(math.div(2, 4));
+    width: percentage(2/4);
 }
 
 %three-quarters {
-    width: percentage(math.div(3, 4));
+    width: percentage(3/4);
 }
 
 %push-span-all {
-    margin-left: percentage(math.div(1, 1));
+    margin-left: percentage(1/1);
 }
 
 %push-one-half {
-    margin-left: percentage(math.div(1, 2));
+    margin-left: percentage(1/2);
 }
 
 %push-one-third {
-    margin-left: percentage(math.div(1, 3));
+    margin-left: percentage(1/3);
 }
 
 %push-two-thirds {
-    margin-left: percentage(math.div(2, 3));
+    margin-left: percentage(2/3);
 }
 
 %push-one-quarter {
-    margin-left: percentage(math.div(1, 4));
+    margin-left: percentage(1/4);
 }
 
 %push-two-quarters {
-    margin-left: percentage(math.div(2, 4));
+    margin-left: percentage(2/4);
 }
 
 %push-three-quarters {
-    margin-left: percentage(math.div(2, 4));
+    margin-left: percentage(3/4);
 }
 
 %pull-span-all {
-    margin-right: (percentage(math.div(1, 1)));
+    margin-right: (percentage(1/1));
 }
 
 %pull-one-half {
-    margin-right: (percentage(math.div(1, 2)));
+    margin-right: (percentage(1/2));
 }
 
 %pull-one-third {
-    margin-right: (percentage(math.div(1, 3)));
+    margin-right: (percentage(1/3));
 }
 
 %pull-two-thirds {
-    margin-right: (percentage(math.div(2, 3)));
+    margin-right: (percentage(2/3));
 }
 
 %pull-one-quarter {
-    margin-right: (percentage(math.div(1, 4)));
+    margin-right: (percentage(1/4));
 }
 
 %pull-two-quarters {
-    margin-right: (percentage(math.div(2, 4)));
+    margin-right: (percentage(2/4));
 }
 
 %pull-three-quarters {
-    margin-right: (percentage(math.div(2, 4)));
+    margin-right: (percentage(3/4));
 }
 
 @each $count in $layout-columns {
@@ -128,43 +126,43 @@ $pushes: false !default;
     @for $i from 1 through $count {
 
         .layout__item--#{$i}-of-#{$count} {
-            @if percentage(math.div($i, $count) ) == percentage(math.div(1, 1)) {
+            @if percentage($i/$count) == percentage(1/1) {
             @extend %span-all;
-            } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 2)) {
+            } @else if percentage($i/$count) == percentage(1/2) {
             @extend %one-half;
-            } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 3)) {
+            } @else if percentage($i/$count) == percentage(1/3) {
             @extend %one-third;
-            } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 3)) {
+            } @else if percentage($i/$count) == percentage(2/3) {
             @extend %two-thirds;
-            } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 4)) {
+            } @else if percentage($i/$count) == percentage(1/4) {
             @extend %one-quarter;
-            } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+            } @else if percentage($i/$count) == percentage(2/4) {
             @extend %two-quarters;
-            } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+            } @else if percentage($i/$count) == percentage(3/4) {
             @extend %three-quarters;
             } @else {
-            width: percentage(math.div($i, $count) );
+            width: percentage($i/$count);
             }
         }
 
         @if $pushes {
             .layout__item--push-#{$i}-of-#{$count} {
-                @if percentage(math.div($i, $count) ) == percentage(math.div(1, 1)) {
+                @if percentage($i/$count) == percentage(1/1) {
                   @extend %push-span-all;
-                } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 2)) {
+                } @else if percentage($i/$count) == percentage(1/2) {
                   @extend %push-one-half;
-                } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 3)) {
+                } @else if percentage($i/$count) == percentage(1/3) {
                   @extend %push-one-third;
-                } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 3)) {
+                } @else if percentage($i/$count) == percentage(2/3) {
                   @extend %push-two-thirds;
-                } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 4)) {
+                } @else if percentage($i/$count) == percentage(1/4) {
                   @extend %push-one-quarter;
-                } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+                } @else if percentage($i/$count) == percentage(2/4) {
                   @extend %push-two-quarters;
-                } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+                } @else if percentage($i/$count) == percentage(3/4) {
                   @extend %push-three-quarters;
                 } @else {
-                  margin-left: percentage(math.div($i, $count) );
+                  margin-left: percentage($i/$count);
                 }
             }
         }
@@ -176,87 +174,87 @@ $pushes: false !default;
     @media (min-width: $width) {
 
         %span-all\@#{$size} {
-            width: percentage(math.div(1, 1));
+            width: percentage(1/1);
         }
 
         %one-half\@#{$size} {
-            width: percentage(math.div(1, 2));
+            width: percentage(1/2);
         }
 
         %one-third\@#{$size} {
-            width: percentage(math.div(1, 3));
+            width: percentage(1/3);
         }
 
         %two-thirds\@#{$size} {
-            width: percentage(math.div(2, 3));
+            width: percentage(2/3);
         }
 
         %one-quarter\@#{$size} {
-            width: percentage(math.div(1, 4));
+            width: percentage(1/4);
         }
 
         %two-quarters\@#{$size} {
-            width: percentage(math.div(2, 4));
+            width: percentage(2/4);
         }
 
         %three-quarters\@#{$size} {
-            width: percentage(math.div(2, 4));
+            width: percentage(3/4);
         }
 
         %push-span-all\@#{$size} {
-        margin-left: percentage(math.div(1, 1));
+        margin-left: percentage(1/1);
         }
 
         %push-one-half\@#{$size} {
-            margin-left: percentage(math.div(1, 2));
+            margin-left: percentage(1/2);
         }
 
         %push-one-third\@#{$size} {
-            margin-left: percentage(math.div(1, 3));
+            margin-left: percentage(1/3);
         }
 
         %push-two-thirds\@#{$size} {
-            margin-left: percentage(math.div(2, 3));
+            margin-left: percentage(2/3);
         }
 
         %push-one-quarter\@#{$size} {
-            margin-left: percentage(math.div(1, 4));
+            margin-left: percentage(1/4);
         }
 
         %push-two-quarters\@#{$size} {
-            margin-left: percentage(math.div(2, 4));
+            margin-left: percentage(2/4);
         }
 
         %push-three-quarters\@#{$size} {
-            margin-left: percentage(math.div(2, 4));
+            margin-left: percentage(3/4);
         }
 
         %pull-span-all\@#{$size} {
-            margin-right: (percentage(math.div(1, 1)));
+            margin-right: (percentage(1/1));
         }
 
         %pull-one-half\@#{$size} {
-            margin-right: (percentage(math.div(1, 2)));
+            margin-right: (percentage(1/2));
         }
 
         %pull-one-third\@#{$size} {
-            margin-right: (percentage(math.div(1, 3)));
+            margin-right: (percentage(1/3));
         }
 
         %pull-two-thirds\@#{$size} {
-            margin-right: (percentage(math.div(2, 3)));
+            margin-right: (percentage(2/3));
         }
 
         %pull-one-quarter\@#{$size} {
-            margin-right: (percentage(math.div(1, 4)));
+            margin-right: (percentage(1/4));
         }
 
         %pull-two-quarters\@#{$size} {
-            margin-right: (percentage(math.div(2, 4)));
+            margin-right: (percentage(2/4));
         }
 
         %pull-three-quarters\@#{$size} {
-            margin-right: (percentage(math.div(2, 4)));
+            margin-right: (percentage(3/4));
         }
 
         @each $count in $layout-columns {
@@ -264,43 +262,43 @@ $pushes: false !default;
             @for $i from 1 through $count {
 
                 .layout__item--#{$i}-of-#{$count}\@#{$size} {
-                    @if percentage(math.div($i, $count) ) == percentage(math.div(1, 1)) {
+                    @if percentage($i/$count) == percentage(1/1) {
                     @extend %span-all\@#{$size};
-                    } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 2)) {
+                    } @else if percentage($i/$count) == percentage(1/2) {
                     @extend %one-half\@#{$size};
-                    } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 3)) {
+                    } @else if percentage($i/$count) == percentage(1/3) {
                     @extend %one-third\@#{$size};
-                    } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 3)) {
+                    } @else if percentage($i/$count) == percentage(2/3) {
                     @extend %two-thirds\@#{$size};
-                    } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 4)) {
+                    } @else if percentage($i/$count) == percentage(1/4) {
                     @extend %one-quarter\@#{$size};
-                    } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+                    } @else if percentage($i/$count) == percentage(2/4) {
                     @extend %two-quarters\@#{$size};
-                    } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+                    } @else if percentage($i/$count) == percentage(3/4) {
                     @extend %three-quarters\@#{$size};
                     } @else {
-                    width: percentage(math.div($i, $count) );
+                    width: percentage($i/$count);
                     }
                 }
 
                 @if $pushes {
                     .layout__item--push-#{$i}-of-#{$count}\@#{$size} {
-                        @if percentage(math.div($i, $count) ) == percentage(math.div(1, 1)) {
+                        @if percentage($i/$count) == percentage(1/1) {
                           @extend %push-span-all\@#{$size};
-                        } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 2)) {
+                        } @else if percentage($i/$count) == percentage(1/2) {
                           @extend %push-one-half\@#{$size};
-                        } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 3)) {
+                        } @else if percentage($i/$count) == percentage(1/3) {
                           @extend %push-one-third\@#{$size};
-                        } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 3)) {
+                        } @else if percentage($i/$count) == percentage(2/3) {
                           @extend %push-two-thirds\@#{$size};
-                        } @else if percentage(math.div($i, $count) ) == percentage(math.div(1, 4)) {
+                        } @else if percentage($i/$count) == percentage(1/4) {
                           @extend %push-one-quarter\@#{$size};
-                        } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+                        } @else if percentage($i/$count) == percentage(2/4) {
                           @extend %push-two-quarters\@#{$size};
-                        } @else if percentage(math.div($i, $count) ) == percentage(math.div(2, 4)) {
+                        } @else if percentage($i/$count) == percentage(3/4) {
                           @extend %push-three-quarters\@#{$size};
                         } @else {
-                          margin-left: percentage(math.div($i, $count) );
+                          margin-left: percentage($i/$count);
                         }
                     }
                 }
