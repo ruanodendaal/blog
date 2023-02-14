@@ -4,6 +4,6 @@ Personal blog space, built using [Jekyll](https://jekyllrb.com) deployed using G
 
 ## Running
 
-`jekyll serve`
+`bundle exec jekyll serve`
 
 Open `http://localhost:4000/`
