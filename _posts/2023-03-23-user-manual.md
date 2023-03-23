@@ -34,15 +34,18 @@ Let's all be a little more transparent. Below is my manual.
 ## My leadership style
 
 - I'm a servant leader. My job is to make my team successful, I lead through others.
-- I focus on **outcomes**, not output.
-- I trust by default.
+- I focus on **outcomes**🎯, not outputs.
+- If you ask my opinion I'll happily give it but will also give a **1-5 rating**. 1. Have no strong opinions to 5. I'm highly opinionated about this.
+- I trust by default. 
 - ~~Strong opinions, weakly held~~ —> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data. Credit [Shreyas Doshi](https://twitter.com/shreyas/status/1467562879498928130)
 
 ## How to get the most out of me
 
 - Articulate the customer value in the task at hand, who is it for and why do they need it?
 - Give me some context and the specific objective(s). I almost always want to know **why** we're doing it, **who** is it for and **how** is it benefiting our customers.
+- Be competitor aware but customer focused. Don't show we what a competitor is doing and say we need to do this. Show me the customer data that informs our own signals.
 - Short meetings at a whiteboard can save a lot of back-and-forths.
+
 
 ## How I communicate
 
@@ -53,8 +56,8 @@ Let's all be a little more transparent. Below is my manual.
 
 ## How I give feedback
 
-- I try to give feedback as soon as possible while the context is still fresh in our minds.
-- By default, I look for how things can improve. This can sometimes come across as overly critical, however, it is something I'm actively working on. I'll always suggest we ship something and learn i.e. progress over perfection.
+- I give feedback (privately) as soon as possible while the context is still fresh in our minds.
+- By default, I look for how things can improve. This can sometimes come across as overly critical, so let me know how it feels for you. However, I'll always suggest we ship something and learn i.e. progress over perfection.
 
 ## How I handle feedback
 
