@@ -4,7 +4,7 @@ description: How lessons in life can teach you about product development—liste
 author: ruan
 image-name: posts/listening.jpg
 image-alt: A group of people holding a meeting
-tags: [product, research, featured]
+tags: [product, research]
 ---
 
 This week I was reminded of the importance of listening to your customers from the most unlikely of places. **My son**.
