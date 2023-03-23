@@ -4,7 +4,7 @@ description: Despite many books, blog posts and resources available about priori
 author: ruan
 image-name: posts/courage.jpg
 image-alt: A man walking a tightrope
-tags: [prioritisation, time management]
+tags: [prioritisation, time management, featured]
 ---
 
 Despite the fact that there are many books, blog posts and resources available about prioritisation, many people continue to get it _so_ wrong.
