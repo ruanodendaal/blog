@@ -44,8 +44,16 @@ Let's all be a little more transparent. Below is my manual.
 - Articulate the customer value in the task at hand, who is it for and why do they need it?
 - Give me some context and the specific objective(s). I almost always want to know **why** we're doing it, **who** is it for and **how** is it benefiting our customers.
 - Be competitor aware but customer focused. Don't show we what a competitor is doing and say we need to do this. Show me the customer data that informs our own signals.
-- Short meetings at a whiteboard can save a lot of back-and-forths.
+- I have an “open-door” policy, but please check my calendar before scheduling a meeting and respect my focus time.
+- Short meetings or calls can save a lot of back-and-forths.
 
+### Communication tools
+
+Consider the channel you use to message me, the below is a guide to how I treat each with my personal SLAs:
+
+- WhatApp: Urgent P0 level needs | Response time: ~minutes
+- Slack: Important short-form communication | Response time: ~hours
+- Email: Non urgent long-form communication | Response time: ~weeks
 
 ## How I communicate
 
@@ -62,4 +70,4 @@ Let's all be a little more transparent. Below is my manual.
 ## How I handle feedback
 
 - I prefer critique over compliments as I like to know how to do it better. I'm very self-critical, however, the occasional praise for a job well done is appreciated.
-- I will ask for feedback often as value continuous improvement and personal growth.
+- I will ask for feedback often as I value continuous improvement and personal growth.
