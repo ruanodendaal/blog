@@ -47,13 +47,13 @@ Let's all be a little more transparent. Below is my manual.
 - I have an “open-door” policy, but please check my calendar before scheduling a meeting and respect my focus time.
 - Short meetings or calls can save a lot of back-and-forths.
 
-### Communication tools
+### Communication channels
 
 Consider the channel you use to message me, the below is a guide to how I treat each with my personal SLAs:
 
-- WhatApp: Urgent P0 level needs | Response time: ~minutes
-- Slack: Important short-form communication | Response time: ~hours
-- Email: Non urgent long-form communication | Response time: ~weeks
+- **WhatApp**: Urgent P0 level needs | _Response time: ~minutes_
+- **Slack**: Important short-form communication | _Response time: ~hours_
+- **Email**: Non urgent long-form communication | _Response time: ~weeks_
 
 ## How I communicate
 
