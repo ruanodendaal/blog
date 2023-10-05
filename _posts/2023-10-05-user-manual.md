@@ -52,8 +52,8 @@ Let's all be a little more transparent. Below is my manual.
 Consider the channel you use to message me, the below is a guide to how I treat each with my personal SLAs:
 
 - **WhatApp**: Urgent P0 level needs | _Response time: ~minutes_
-- **Slack**: Important short-form communication | _Response time: ~hours_
-- **Email**: Non urgent long-form communication | _Response time: ~weeks_
+- **Slack**: Important short-form communication [ _Response time: ~hours_ ]
+- **Email**: Non urgent long-form communication [ _Response time: ~weeks_ ]
 
 ## How I communicate
 
@@ -61,6 +61,15 @@ Consider the channel you use to message me, the below is a guide to how I treat 
 - I don't shy away from difficult conversations.
 - I ask lots of questions and like to understand the root cause or the **why**.
 - Asynchronous communication kills me. I find context-switching difficult and it interrupts my **flow**. If I'm particularly deep in work I mute all notifications so I'm unlikely to respond to Slack or emails until I'm done.
+- I try as best as possible to prefix messages to support asynchronous communication:
+  
+  | Prefix      | Description                                          |
+  |-------------|------------------------------------------------------|
+  | [ACTION]    | There is an important action required in the message |
+  | [MUST-READ] | A must read important message                        |
+  | [HELP]      | A request for help or question                       |
+  | [FYI]       | Sharing information for visibility (non-urgent)      |
+
 
 ## How I give feedback
 
