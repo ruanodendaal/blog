@@ -51,7 +51,7 @@ Let's all be a little more transparent. Below is my manual.
 
 Consider the channel you use to message me, the below is a guide to how I treat each with my personal SLAs:
 
-- **WhatApp**: Urgent P0 level needs | _Response time: ~minutes_
+- **WhatApp**: Urgent P0 level needs [ _Response time: ~minutes_ ]
 - **Slack**: Important short-form communication [ _Response time: ~hours_ ]
 - **Email**: Non urgent long-form communication [ _Response time: ~weeks_ ]
 
