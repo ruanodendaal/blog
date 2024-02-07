@@ -60,7 +60,8 @@ Consider the channel you use to message me, the below is a guide to how I treat 
 - I prefer direct communication.
 - I don't shy away from difficult conversations.
 - I ask lots of questions and like to understand the root cause or the **why**.
-- Asynchronous communication kills me. I find context-switching difficult and it interrupts my **flow**. If I'm particularly deep in work I mute all notifications so I'm unlikely to respond to Slack or emails until I'm done.
+- Lots of context-switching kills me and its impossible to get into **flow**. Carving out times for deep-work is important to me.
+- If I’m particularly deep in work I mute all notifications so I’m unlikely to respond to Slack or emails until I’m done.
 - I try as best as possible to prefix messages to support asynchronous communication:
   
   | Prefix      | Description                                          |
