@@ -1,0 +1,108 @@
+// Code styling - because beautiful code snippets deserve love too
+
+// Inline code styling
+code {
+  background-color: #f4f4f8;
+  border-radius: 3px;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 0.9em;
+  padding: 0.2em 0.4em;
+  color: #e83e8c; // A nice pop of color for inline code
+  word-break: break-word;
+}
+
+// Code blocks
+pre {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  border-left: 4px solid #4e42ff; // Using your accent color for a nice touch
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+  font-size: 0.9em;
+  line-height: 1.5;
+  margin: 1.5em 0;
+  overflow-x: auto;
+  padding: 1.25em;
+  position: relative;
+  
+  // Remove styling from code inside pre blocks to avoid double-styling
+  code {
+    background-color: transparent;
+    border-radius: 0;
+    color: inherit;
+    font-size: 1em;
+    padding: 0;
+  }
+
+  // Add a subtle language indicator
+  &::before {
+    content: attr(data-lang);
+    display: block;
+    font-family: "Lato", sans-serif;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    opacity: 0.7;
+    position: absolute;
+    right: 10px;
+    text-transform: uppercase;
+    top: 0;
+  }
+}
+
+// Make sure code blocks don't overflow on mobile
+@media (max-width: 700px) {
+  pre {
+    margin-left: -1rem;
+    margin-right: -1rem;
+    border-radius: 0;
+    padding: 1rem;
+  }
+}
+
+// Syntax highlighting colors - a clean, accessible theme
+.highlight {
+  .c, .c1, .cm { color: #6a737d; } // Comments
+  .k, .kd, .kn, .kp, .kr { color: #d73a49; } // Keywords
+  .o, .ow { color: #d73a49; } // Operators
+  .mi, .mf, .mh, .mo { color: #005cc5; } // Numbers
+  .s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: #032f62; } // Strings
+  .na, .nc, .nd, .ne, .nf, .nx { color: #6f42c1; } // Names
+  .nt { color: #22863a; } // HTML/XML tags
+  .nb { color: #005cc5; } // Built-in names
+  .bp { color: #005cc5; } // Built-in object pseudo
+  .py, .nl { color: #24292e; } // Property names
+  .w { color: #bbbbbb; } // Whitespace
+}
+
+// Style for the copy button we'll add with JavaScript
+.copy-button {
+  background-color: #f8f9fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 3px;
+  color: #586069;
+  cursor: pointer;
+  font-size: 0.8em;
+  padding: 4px 8px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  transition: all 0.2s ease;
+  z-index: 2;
+  
+  &:hover {
+    background-color: #e1e4e8;
+    color: #24292e;
+  }
+  
+  &:active {
+    transform: translateY(1px);
+  }
+}
+
+// Syntax highlighting for specific languages
+// Customize or expand these as needed
+.language-bash .k { color: #22863a; }
+.language-js .kd, .language-js .k { color: #d73a49; }
+.language-js .nx { color: #24292e; }
+.language-json .p { color: #24292e; }
+.language-json .s2 { color: #032f62; }
