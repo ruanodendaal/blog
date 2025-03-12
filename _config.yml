@@ -1,8 +1,13 @@
 name: Ruan's blog
 url: https://odendaal.uk
+baseurl: ""
 cdn: https://d3eeewfm2t14hd.cloudfront.net/blog/
 plugins:
   - jekyll-sitemap
+
+sass:
+  style: compressed
+  sourcemap: never
 
 exclude_from_sitemap: true
 

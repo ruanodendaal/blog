@@ -21,7 +21,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/manifest/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/manifest/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/manifest/favicon-16x16.png">
@@ -34,7 +34,7 @@
       {% include analytics.html %}
     {% endif %}
   </head>
-  <body>
+  <body class="blog-odendaal-uk">
     <div class="wrap">
       <nav>
         <a href="/">{% include logo.html %}</a>
@@ -46,6 +46,6 @@
       </nav>
       {{ content }}
     </div>
-    <script src="/assets/js/code-blocks.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/code-blocks.js"></script>
   </body>
 </html>
