@@ -1,25 +1,13 @@
 ---
 ---
-@import "variables";
-
-@import "global";
-
-@import "layout";
-
-@import "cards";
-
-@import "lists";
-
-@import "typography";
-
-@import "navigation";
-
-@import "utility";
-
-@import "typography";
-
-@import "posts";
-
-@import "code";
-
-@import "tables";
+@use "variables";
+@use "global";
+@use "layout";
+@use "cards";
+@use "lists";
+@use "typography";
+@use "navigation";
+@use "utility";
+@use "posts";
+@use "code";
+@use "tables";

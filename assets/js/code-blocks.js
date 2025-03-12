@@ -1,6 +1,13 @@
 // Enhancing code blocks with copy functionality and language detection
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Fix for GitHub Pages styling conflicts
+  document.querySelectorAll('pre').forEach(function(pre) {
+    pre.style.backgroundColor = '#f8f9fa';
+    pre.style.borderLeft = '4px solid #4e42ff';
+    pre.style.position = 'relative';
+    pre.style.overflow = 'auto';
+  });
   // Find all pre > code blocks
   const codeBlocks = document.querySelectorAll('pre > code');
   
@@ -49,11 +56,31 @@ document.addEventListener('DOMContentLoaded', function() {
     // Wrap table in a container for better mobile handling
     const wrapper = document.createElement('div');
     wrapper.className = 'table-container';
+    wrapper.style.overflowX = 'auto';
+    wrapper.style.display = 'block';
     
     // Replace table with the wrapper
     const parent = table.parentNode;
     parent.insertBefore(wrapper, table);
     wrapper.appendChild(table);
+    
+    // Ensure table styles are applied correctly
+    table.style.borderCollapse = 'collapse';
+    table.style.width = '100%';
+    
+    // Style all table headers
+    table.querySelectorAll('th').forEach(function(th) {
+      th.style.backgroundColor = '#f8f9fa';
+      th.style.borderBottom = '2px solid #4e42ff';
+      th.style.padding = '12px 15px';
+      th.style.textAlign = 'left';
+    });
+    
+    // Style all table cells
+    table.querySelectorAll('td').forEach(function(td) {
+      td.style.borderBottom = '1px solid #e6e6e6';
+      td.style.padding = '12px 15px';
+    });
     
     // Look for specific format in the user manual
     if (table.querySelector('td:first-child') && 

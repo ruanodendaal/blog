@@ -1,59 +1,62 @@
+@use "sass:map";
+@use "variables" as vars;
+
 // Margins
 
 @for $i from 0 through 12 {
     
     .m-#{$i} {
-        margin: $spacing-unit * $i;
+        margin: vars.$spacing-unit * $i;
     }
     .m-t-#{$i} {
-        margin-top: $spacing-unit * $i;
+        margin-top: vars.$spacing-unit * $i;
     }
     .m-r-#{$i} {
-        margin-right: $spacing-unit * $i;
+        margin-right: vars.$spacing-unit * $i;
     }
     .m-b-#{$i} {
-        margin-bottom: $spacing-unit * $i;
+        margin-bottom: vars.$spacing-unit * $i;
     }
     .m-l-#{$i} {
-        margin-left: $spacing-unit * $i;
+        margin-left: vars.$spacing-unit * $i;
     }
     .m-v-#{$i} {
-        margin-top: $spacing-unit * $i;
-        margin-bottom: $spacing-unit * $i;
+        margin-top: vars.$spacing-unit * $i;
+        margin-bottom: vars.$spacing-unit * $i;
     }
     .m-h-#{$i} {
-        margin-right: $spacing-unit * $i;
-        margin-left: $spacing-unit * $i;
+        margin-right: vars.$spacing-unit * $i;
+        margin-left: vars.$spacing-unit * $i;
     }
 }
 
-@each $size, $width in $breakpoints {
+@each $size, $width in vars.$breakpoints {
     
     @media (min-width: $width) {
         
         @for $i from 0 through 12 {
             .m-#{$i}\@#{$size} {
-                margin: $spacing-unit * $i;
+                margin: vars.$spacing-unit * $i;
             }
             .m-t-#{$i}\@#{$size} {
-                margin-top: $spacing-unit * $i;
+                margin-top: vars.$spacing-unit * $i;
             }
             .m-r-#{$i}\@#{$size} {
-                margin-right: $spacing-unit * $i;
+                margin-right: vars.$spacing-unit * $i;
             }
             .m-b-#{$i}\@#{$size} {
-                margin-bottom: $spacing-unit * $i;
+                margin-bottom: vars.$spacing-unit * $i;
             }
             .m-l-#{$i}\@#{$size} {
-                margin-left: $spacing-unit * $i;
+                margin-left: vars.$spacing-unit * $i;
             }
             .m-v-#{$i}\@#{$size} {
-                margin-top: $spacing-unit * $i;
-                margin-bottom: $spacing-unit * $i;
+                margin-top: vars.$spacing-unit * $i;
+                margin-bottom: vars.$spacing-unit * $i;
             }
             .m-h-#{$i}\@#{$size} {
-                margin-right: $spacing-unit * $i;
-                margin-left: $spacing-unit * $i;
+                margin-right: vars.$spacing-unit * $i;
+                margin-left: vars.$spacing-unit * $i;
             }
         }
     }

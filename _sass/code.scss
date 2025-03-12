@@ -13,24 +13,25 @@ code {
 
 // Code blocks
 pre {
-  background-color: #f8f9fa;
-  border-radius: 4px;
-  border-left: 4px solid #4e42ff; // Using your accent color for a nice touch
-  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
-  font-size: 0.9em;
-  line-height: 1.5;
-  margin: 1.5em 0;
-  overflow-x: auto;
-  padding: 1.25em;
-  position: relative;
+  background-color: #f8f9fa !important;
+  border-radius: 4px !important;
+  border-left: 4px solid #4e42ff !important; // Using your accent color for a nice touch
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
+  font-size: 0.9em !important;
+  line-height: 1.5 !important;
+  margin: 1.5em 0 !important;
+  overflow-x: auto !important;
+  padding: 1.25em !important;
+  position: relative !important;
   
   // Remove styling from code inside pre blocks to avoid double-styling
   code {
-    background-color: transparent;
-    border-radius: 0;
-    color: inherit;
-    font-size: 1em;
-    padding: 0;
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    color: inherit !important;
+    font-size: 1em !important;
+    padding: 0 !important;
+    word-break: normal !important;
   }
 
   // Add a subtle language indicator
@@ -88,6 +89,7 @@ pre {
   top: 10px;
   transition: all 0.2s ease;
   z-index: 2;
+  display: block !important;
   
   &:hover {
     background-color: #e1e4e8;

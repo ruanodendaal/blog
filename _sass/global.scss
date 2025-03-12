@@ -1,7 +1,19 @@
+@use "sass:map";
+@use "variables" as vars;
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+/* Add scoped styles for better GitHub Pages compatibility */
+.blog-odendaal-uk {
+  /* Global reset for all elements inside our scoped class */
+  pre, code, table, th, td {
+    font-size: inherit;
+    line-height: inherit;
+  }
 }
 
 html {
@@ -39,7 +51,7 @@ blockquote p {
   line-height: 1.6;
   border-left: 2px solid #4e42ff;
   padding-left: 12px;
-  @media (min-width: map-get($breakpoints, m )) {
+  @media (min-width: map.get(vars.$breakpoints, m)) {
     margin: 1rem 2rem 2rem;
   }
 }
