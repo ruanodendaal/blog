@@ -1,0 +1,10 @@
+{% comment %}
+  Utility include that returns a filtered collection of posts.
+  Usage: include this file with parameter 'posts' to get a filtered collection
+  that excludes any posts with the "test" tag.
+  
+  Example usage:
+  {% assign filtered_posts = site.posts | where_exp: "post", "post.tags contains 'test' == false" %}
+{% endcomment %}
+
+{% assign filtered_posts = include.posts | where_exp: "post", "post.tags contains 'test' == false" %}

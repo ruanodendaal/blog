@@ -1,0 +1,105 @@
+// Table styling - because your data deserves to be presented with style
+
+table {
+  border-collapse: collapse;
+  font-family: "Lato", sans-serif;
+  margin: 1.5em 0;
+  width: 100%;
+  
+  // Handle overflows on mobile gracefully
+  overflow-x: auto;
+  display: block;
+  @media (min-width: 700px) {
+    display: table;
+  }
+}
+
+// Make sure tables stay contained on mobile
+.post table {
+  max-width: 100%;
+}
+
+// Table headers
+th {
+  background-color: #f8f9fa;
+  border-bottom: 2px solid #4e42ff; // Using your accent color for headers
+  border-right: 1px solid #e0e0e6; // Slightly darker separator for headers
+  font-size: 0.9em;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  padding: 12px 15px;
+  text-align: left;
+  text-transform: uppercase;
+  
+  // Remove border from last header cell
+  &:last-child {
+    border-right: none;
+  }
+}
+
+// Table cells
+td {
+  border-bottom: 1px solid #e6e6e6;
+  border-right: 1px solid #ebebeb; // Light vertical separator between columns
+  color: rgba(0, 0, 0, 0.85);
+  padding: 12px 15px;
+  vertical-align: top;
+  
+  // Style code inside table cells
+  code {
+    font-size: 0.85em;
+    padding: 2px 5px;
+  }
+  
+  // Remove border from last cell in each row
+  &:last-child {
+    border-right: none;
+  }
+}
+
+// Row hover effect
+tr:hover {
+  background-color: #f9f9fc;
+  
+  // Ensure text doesn't get lost on hover
+  td {
+    color: #000000;
+  }
+}
+
+// Zebra striping for better readability in larger tables
+tr:nth-child(even) {
+  background-color: #fcfcff;
+}
+
+// Responsive handling
+@media (max-width: 700px) {
+  // Create scrollable container
+  .table-container {
+    overflow-x: auto;
+    margin: 1.5em -1rem;
+    padding: 0 1rem;
+  }
+  
+  table {
+    min-width: 100%;
+  }
+  
+  th, td {
+    padding: 10px 12px;
+    font-size: 0.95em;
+  }
+}
+
+// Special styling for the prefix table in your user manual
+.prefix-table {
+  th:first-child {
+    width: 25%;
+  }
+  
+  td:first-child {
+    font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace;
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+}
