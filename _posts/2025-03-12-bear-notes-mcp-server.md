@@ -2,7 +2,7 @@
 title: Connecting Bear Notes to Claude 🧠
 description: Ever had that nagging feeling that the brilliant insight you need is buried somewhere in your notes, but you can't quite remember where?
 author: ruan
-image-name: posts/bear-notes-mcp.jpg
+image-name: posts/ai_brain.png
 image-alt: Digital notebook connected to AI brain with glowing connections
 tags: [ai, rag, side-project, productivity, featured]
 ---
