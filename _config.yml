@@ -4,6 +4,9 @@ cdn: https://d3eeewfm2t14hd.cloudfront.net/blog/
 plugins:
   - jekyll-sitemap
 
+exclude_from_sitemap: true
+
+# Exclude test posts from sitemap and RSS feeds
 defaults:
   - scope:
       type: "pages"
@@ -13,3 +16,14 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      type: "posts"
+      path: "_posts"
+    values:
+      sitemap: true
+  - scope:
+      type: "posts"
+      path: "_posts"
+    values:
+      sitemap: false
+    condition: "page.tags contains 'test'"

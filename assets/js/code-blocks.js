@@ -41,4 +41,24 @@ document.addEventListener('DOMContentLoaded', function() {
     // Add button to pre element
     pre.appendChild(copyButton);
   });
+  
+  // Enhance tables for responsiveness
+  const tables = document.querySelectorAll('.post table');
+  
+  tables.forEach(function(table) {
+    // Wrap table in a container for better mobile handling
+    const wrapper = document.createElement('div');
+    wrapper.className = 'table-container';
+    
+    // Replace table with the wrapper
+    const parent = table.parentNode;
+    parent.insertBefore(wrapper, table);
+    wrapper.appendChild(table);
+    
+    // Look for specific format in the user manual
+    if (table.querySelector('td:first-child') && 
+        table.querySelector('td:first-child').textContent.includes('[')) {
+      table.classList.add('prefix-table');
+    }
+  });
 });

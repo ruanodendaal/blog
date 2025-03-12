@@ -1,5 +1,6 @@
 <ul class="post-list">
 {% for post in site.posts %}
+    {% unless post.tags contains "test" %}
     <li class="post-list__item m-b-0">
       <a class="" href="{{ post.url }}">
         <p class="m-b-1">{{ post.date | date: "%d %B %Y" }}</p>
@@ -7,5 +8,6 @@
         <p class="subtitle m-b-2">{{ post.description }}</p>
       </a>
     </li>
+    {% endunless %}
 {% endfor %}
 </ul>
