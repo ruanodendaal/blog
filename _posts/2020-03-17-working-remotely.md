@@ -11,7 +11,7 @@ This has been a topic on my blog list for some time now, however, with COVID-19 
 
 Remote working can force great new ways of working and in my experience when done well, keeps meetings focused.
 
-Don't get me wrong, doing remote working well is hard, it takes a shift in ways of working—I think for the better—especially for companies not set up for it and in my opinion too many still focus on presenteeism.
+Don't get me wrong, doing remote working well is hard, it takes a shift in ways of working, I think for the better, especially for companies not set up for it and in my opinion many still focus on presenteeism.
 
 ### Trust your team
 
@@ -63,4 +63,4 @@ Make time to get out of the house **where safe to do so**. Go for a walk and get
 
 Working at home for extended periods can be hard if you’re not used to it, but create a routine and get some fresh air.
 
-There are so many things you can try as an individual and as a team—test, learn and adapt….what other choice do we have?
+There are so many things you can try as an individual and as a team; test, learn and adapt….what other choice do we have?

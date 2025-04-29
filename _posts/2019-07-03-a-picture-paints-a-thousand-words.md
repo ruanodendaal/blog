@@ -28,9 +28,9 @@ In [a post by Stewart Scott-Curran](https://www.intercom.com/blog/so-you-want-to
 
 For us, that means deciding where we sit on a scale from _serious_ to _playful_ for a given project. We’ve taken this a little further and started articulating our visual identity across three possible points on a scale. Level one is articulated as more serious and less playful; level two as a balance between the two, and level three as more playful.
 
-So starting with level one—our core message—what impression do we want our customers to be left with, and how do we articulate this on our sliding scale?
+So starting with level one (our core message), what impression do we want our customers to be left with, and how do we articulate this on our sliding scale?
 
-Start with the customer—what is their primary objective when visiting our site? We articulated it using job stories, starting with the below:
+Start with the customer; what is their primary objective when visiting our site? We articulated it using job stories, starting with the below:
 
 > When I visit Pusher.com, I want to feel as though the products are suitable for creating professional, scalable, and reliable applications, so that I’m confident it will provide value to my customers faster than if I were to build it myself.
 
@@ -72,8 +72,8 @@ This has lead to faster turnaround times and greater consistency in our visual d
 
 **Full disclosure**: we still need to articulate our other levels, and will do so when we have work that doesn’t require “level one” type treatment. But as an example: non-transactional marketing emails and newsletters are probably much closer to levels 2 & 3 (more playful than serious) than a level one.
 
-A picture really can paint a thousand words—and because it can, we should be as rigorous with our “pictures” as we are with our words.
+A picture really can paint a thousand words, and because it can, we should be as rigorous with our “pictures” as we are with our words.
 
 #### Feedback
 
-How do you think about your visual communication? Have you ever thought about it? If you do—or don’t—I am really interested in hearing about your experiences or processes.
+How do you think about your visual communication? Have you ever thought about it? If you do, or don’t, I am really interested in hearing about your experiences or processes.

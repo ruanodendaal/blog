@@ -1,5 +1,5 @@
 ---
-title: Why people can’t prioritise effectively—Courage
+title: Why people can’t prioritise effectively; Courage
 description: Despite many books, blog posts and resources available about prioritisation, many people continue to get it so wrong.
 author: ruan
 image-name: posts/courage.jpg
@@ -9,7 +9,7 @@ tags: [prioritisation, time management]
 
 Despite the fact that there are many books, blog posts and resources available about prioritisation, many people continue to get it _so_ wrong.
 
-Whether you evaluate your priorities as Urgent vs Important or Impact vs Effort or use a scoring model—there is typically one element missing: **courage**.
+Whether you evaluate your priorities as Urgent vs Important or Impact vs Effort or use a scoring model, there is typically one element missing: **courage**.
 
 ## So what do we do?
 
@@ -19,7 +19,7 @@ We try to do it all. We pretend we’re prioritising. We spend our time trying t
 
 The reality is, you haven’t.
 
-The most common answer I’ve heard for having not done something, or succeeded is _time_. You had time, but at some point—consciously or unconsciously—you decided to prioritise something else. We say things to ourselves like:
+The most common answer I’ve heard for having not done something, or succeeded is _time_. You had time, but at some point, consciously or unconsciously, you decided to prioritise something else. We say things to ourselves like:
 
 > I won’t start that now as it’s too hard, but I can do these two things in 30 mins instead.
 
