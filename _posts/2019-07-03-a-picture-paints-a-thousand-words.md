@@ -17,7 +17,7 @@ These views had been widely held in our team, but hadn’t been documented; it b
 
 When you start a new piece of work, how do you go about determining the message and the feeling you want your users to be left with when experiencing your product?
 
-Anything a user experiences on your site will be communicating something—what users see, hear, and feel can drastically change their perception of your brand and your product.
+Anything a user experiences on your site will be communicating something; what users see, hear, and feel can drastically change their perception of your brand and your product.
 
 So how do we make sure we’re doing our best to communicate the right thing at the right time?
 
