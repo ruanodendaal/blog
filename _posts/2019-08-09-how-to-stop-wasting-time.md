@@ -46,4 +46,4 @@ By doing this, we’ve found we just spend less time on things that people weren
 
 So saving us time, sanity and more importantly means we can focus on the things that really are important.
 
-Give it a try—does it work for you?
+Give it a try, does it work for you?
