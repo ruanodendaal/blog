@@ -31,7 +31,9 @@ layout: default
   <div
     class="post layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered"
   >
-    {{ content }}
+    <div class="post-body">
+      {{ content }}
+    </div>
     <div class="m-t-6 m-b-2">
       <ul class="tags">
         {% for tag in page.tags %}

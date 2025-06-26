@@ -53,3 +53,17 @@ p {
 strong {
   font-weight: bold;
 }
+
+.post-body .sources {
+  font-size: 0.8rem;
+  color: #666;
+  line-height: 1.4;
+  margin-top: 4rem;
+
+  > p:first-child {
+    margin-bottom: 0;
+  }
+  li {
+    margin-bottom: 8px;
+  }
+}
