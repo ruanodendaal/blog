@@ -70,7 +70,7 @@ AI tools are about to flood your calendar with summaries, tags, and follow-ups. 
 
 The real frontier isn’t just post-processing. It’s pre-meeting clarity.
 
-If we want AI to actually make work better, not jsut prettier, we need to teach it to ask the one question humans keep avoiding:
+If we want AI to actually make work better, not just prettier, we need to teach it to ask the one question humans keep avoiding:
 
 ***“Why are we meeting at all?”***
 
