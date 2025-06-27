@@ -15,7 +15,7 @@ In a world where companies are under pressure to do more with less, or work smar
 
 We’ve normalised a world where meetings are the default setting for getting anything done, and a lot of them are garbage. 
 
-This is not just my view, it’s backed by data and quotes from people across roles and industries (sources at the end):
+This is not just my view, it’s backed by data (sources at the end):
 - Only 37% of meetings have an agenda
 - 64% of recurring and 60% of one-off meetings happen without one
 - Executives consider 67% of meetings a failure
