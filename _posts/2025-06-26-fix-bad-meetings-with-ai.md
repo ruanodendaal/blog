@@ -4,7 +4,7 @@ description: We have AI that can code and plan holidays, but meetings still wast
 author: ruan
 image-name: posts/ai_meeting_bot.png
 image-alt: Split screen image, on the left, a chaotic meeting with no structure and the right, a structured, focused, with AI-generated agenda and action items.
-tags: [ai, productivity, meetings, agentic-ai, work-culture, featured]
+tags: [ai, productivity, meetings, agentic-ai, work-culture]
 ---
 
 Anyone who knows me knows I love productivity and efficiency tools. My current favourite for meetings is Granola. It’s smart, simple, and actually helpful. But let’s be honest, there are a *lot* of tools like this right now, and most of them won’t survive.

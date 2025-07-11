@@ -4,7 +4,7 @@ description: Ever had that nagging feeling that the brilliant insight you need i
 author: ruan
 image-name: posts/ai_brain.png
 image-alt: Digital notebook connected to AI brain with glowing connections
-tags: [ai, rag, side-project, productivity]
+tags: [ai, rag, side-project, productivity, featured]
 ---
 
 That was me, staring at my collection of 1,000+ Bear notes, a digital memory vault that had become both invaluable and impenetrable.
