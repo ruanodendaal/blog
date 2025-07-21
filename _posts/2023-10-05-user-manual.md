@@ -37,7 +37,7 @@ Let's all be a little more transparent. Below is my manual.
 - I focus on **outcomes** 🎯, not outputs.
 - If you ask my opinion I'll happily give it but will also give a **1-5 rating**. 1. Have no strong opinions to 5. I'm highly opinionated about this.
 - I trust by default. 
-- ~~Strong opinions, weakly held~~ --> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data. Credit [Shreyas Doshi](https://twitter.com/shreyas/status/1467562879498928130)
+- ~~Strong opinions, weakly held~~ --> Probabilistic opinions, objectively held, decisively executed, diligently evaluated. I have opinions about a lot of things but I’m always up for a constructive debate and am happy to change my opinions provided with new data. Credit [Shreyas Doshi](https://x.com/shreyas/status/1467562879498928130)
 
 ## How to get the most out of me
 
