@@ -1,0 +1,43 @@
+@use "sass:map";
+@use "variables" as vars;
+
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  body {
+    background-color: #121212;
+  }
+
+  .subtitle {
+    color: #e0e0e0;
+  }
+
+  .post-list__item {
+    border-bottom: 1px solid #333;
+  }
+
+  blockquote p {
+    border-left-color: #bb86fc;
+  }
+
+  pre {
+    background-color: #1e1e1e !important;
+    border-left-color: #bb86fc !important;
+  }
+
+  .post a,
+  p .header-links {
+    color: #9eaeef;
+  }
+
+  .tags li {
+    background: #333;
+  }
+
+  nav svg path:last-of-type {
+    fill: #e0e0e0;
+  }
+}
