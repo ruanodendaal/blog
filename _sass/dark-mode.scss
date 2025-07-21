@@ -40,4 +40,31 @@
   nav svg path:last-of-type {
     fill: #e0e0e0;
   }
+
+  // Improve table readability in dark mode
+  table {
+    color: #e0e0e0;
+  }
+
+  tr:nth-child(even) {
+    background-color: #1e1e1e;
+  }
+
+  tr:hover {
+    background-color: #2a2a2a;
+  }
+
+  tr:hover td {
+    color: #e0e0e0 !important;
+  }
+
+  th {
+    background-color: #1e1e1e !important;
+    border-bottom-color: #bb86fc !important;
+  }
+
+  td {
+    border-bottom-color: #444 !important;
+    color: #e0e0e0 !important;
+  }
 }
