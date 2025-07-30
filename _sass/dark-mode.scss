@@ -67,4 +67,17 @@
     border-bottom-color: #444 !important;
     color: #e0e0e0 !important;
   }
+
+  .button {
+    color: #e0e0e0;
+    border-color: #e0e0e0;
+  }
+  
+  .button-content .text:after {
+    color: #e0e0e0;
+  }
+  
+  .button img {
+    filter: brightness(0) invert(1);
+  }  
 }
