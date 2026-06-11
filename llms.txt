@@ -1,8 +1,8 @@
 # Ruan Odendaal
 
-> AI-native product leader who ships code — and regularly presents to the board. 15 years across VC-backed startups and £1B+ enterprises, currently Head of Product at Findable AI, building AI asset intelligence for real estate.
+> AI-native product leader who ships code — and presents to the board. 15 years in B2B SaaS across VC-backed startups and £1B+ enterprises, owning product, design and the commercial motion end to end. Currently Head of Product at Findable AI, building AI asset intelligence for real estate.
 
-This is the personal portfolio and writing of Ruan Odendaal (odendaal.uk). It covers his work shipping production AI products, his career across product, design and engineering, and his writing on AI product management and product leadership. Based in London, UK.
+This is the personal portfolio and writing of Ruan Odendaal (odendaal.uk). He is a senior product leader operating at VP / Director of Product — increasingly Chief Product Officer (CPO) — scope: owning product, design, go-to-market (sales and marketing collateral), pricing and packaging, company and product strategy, and unit economics, while presenting to the board in every meeting. Background is mostly B2B SaaS. Based in London, UK; works in London or fully remote; open to a good conversation.
 
 ## Pages
 - [About](https://odendaal.uk/about/): Full bio, vertical career timeline (Findable, Nomad Homes/Remy AI, bp, Luno, Patchwork Health, News UK, Pusher), skills, languages and certifications.
@@ -17,7 +17,7 @@ This is the personal portfolio and writing of Ruan Odendaal (odendaal.uk). It co
 - [Truly listening during product development](https://odendaal.uk/2020/11/17/listening-to-your-customers.html)
 
 ## Expertise
-AI product management, applied/generative AI, Model Context Protocol (MCP), Claude Code, agentic and multi-agent systems, LLM evaluation, 0→1 product development, product-led growth, AI strategy, board and investor communications.
+Product leadership (Head of Product / Director / VP / CPO scope), end-to-end product, design and commercial ownership, product and company strategy, go-to-market, pricing and packaging, unit economics, board and investor communications, B2B SaaS, 0→1 to scale. On the AI side: AI product management, applied/generative AI, Model Context Protocol (MCP), Claude Code, agentic and multi-agent systems, LLM evaluation, product-led growth.
 
 ## Contact
 - Email: ruan@odendaal.uk

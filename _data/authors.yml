@@ -8,42 +8,54 @@ ruan:
   email: ruan@odendaal.uk
 
   # Portfolio hero / about.
-  headline: Head of Product at Findable
+  headline: Head of Product at Findable AI
   tagline: AI-native product leader who ships code
   location: London, UK
+  available: Based in London · works London or fully remote · open to a conversation
+
+  # Scannable proof points — exec recruiters skim these. Shown on the homepage.
+  proof:
+    - End-to-end product & commercial
+    - Board-level operator
+    - Teams of 2–70
+    - 0→1 to scale
+    - B2B SaaS
+    - Ships production AI
 
   # Hero (homepage) — one or two punchy sentences.
   bio_short: >-
-    AI-native product leader who ships code — and regularly presents to the
-    board. 15 years across VC-backed startups and £1B+ enterprises, now building
-    AI asset intelligence for real estate at Findable.
+    AI-native product leader who ships code — and presents to the board. 15 years
+    in B2B SaaS across VC-backed startups and £1B+ enterprises, owning product,
+    design and the commercial motion end to end. Currently Head of Product at
+    Findable AI.
 
   # /about page — markdown supported.
   bio_long: |
-    I'm an AI-native product leader who ships code. For 15 years I've built AI
-    and platform products across VC-backed startups and £1B+ enterprises,
-    deliberately moving between leadership and hands-on IC — from leading a
-    70-person platform team back to being a builder, and forward again. Engineer
-    by training, operator by trade.
+    I'm an AI-native product leader who ships code. Over 15 years — mostly in
+    B2B SaaS — I've built AI and platform products across VC-backed startups and
+    £1B+ enterprises, moving deliberately between leadership and hands-on IC, from
+    leading a 70-person organisation back to being a builder and forward again.
+    Engineer by training, operator by trade.
 
-    The last three years I've been all-in on applied AI, shipping production
-    GenAI products at Findable and Nomad Homes (Remy AI). I build on the
-    Anthropic stack rather than just using it: a custom MCP server, a set of
-    Claude agents I run daily, internal Claude skills my team relies on, and
-    production code shipped via Cursor and Claude Code — with evals to keep model
-    behaviour honest.
+    These days I operate with the scope of a VP or Director of Product — and
+    increasingly a Chief Product Officer's remit. At Findable AI I own product,
+    design, go-to-market (sales and marketing collateral), pricing and packaging,
+    company and product strategy, and the unit economics of the business — and I
+    present to the board in every meeting. I led the strategy rewrite that put the
+    company on a net-expansion path.
 
-    I've owned strategy and commercial outcomes as much as the product itself. At
-    Findable I lead an end-to-end remit spanning product, design, pricing and
-    positioning, and led the strategy rewrite that put the business on a
-    net-expansion path. I'm a regular board-level presenter — I've reported
-    product strategy and metrics to the board across four VC-backed companies, and
-    ran six-weekly C-suite reviews on a £400M subscription business at News UK.
+    I'm all-in on applied AI and build on the Anthropic stack rather than just
+    using it: a custom MCP server, Claude agents I run daily, internal Claude
+    skills my team relies on, and production code shipped via Cursor and Claude
+    Code, with evals to keep model behaviour honest.
 
-    I've spent most of my career alongside founders — as at home in an
-    architecture conversation as a strategy one, in a scrappy early-stage team or
-    a complex enterprise. If you're solving hard problems with frontier models and
-    want someone who turns insight into shipped product, let's talk.
+    I've reported to the board across four VC-backed companies, co-led Series B
+    due diligence, and ran six-weekly C-suite reviews on a £400M subscription
+    business at News UK. I've spent most of my career alongside founders — as at
+    home in an architecture conversation as a board one.
+
+    I'm based in London and work in London or fully remote. If you're solving hard
+    problems with frontier AI, I'm always open to a good conversation.
 
   education:
     - "BSc Software Engineering · University of the West of England, Bristol"

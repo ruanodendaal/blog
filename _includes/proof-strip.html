@@ -1,0 +1,6 @@
+{% assign me = site.data.authors.ruan %}
+{% if me.proof %}
+<ul class="proof-strip" aria-label="At a glance">
+  {% for item in me.proof %}<li class="proof-strip__item">{{ item }}</li>{% endfor %}
+</ul>
+{% endif %}

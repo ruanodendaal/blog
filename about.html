@@ -52,6 +52,7 @@ image-name: profile/ruan.png
   {% endif %}
 
   <div class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered m-t-6">
+    {% if me.available %}<p class="subtitle m-b-1">{{ me.available }}</p>{% endif %}
     <p>Want to chat? Send me an email at <a class="header-links" href="mailto:{{ me.email }}">{{ me.email }}</a>.</p>
   </div>
 </div>
