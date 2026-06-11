@@ -18,9 +18,12 @@
 {% assign rows = rows | split: ";;" | sort | reverse %}
 
 <ul class="post-list">
+{% assign shown = 0 %}
 {% for r in rows %}
+  {% if include.limit and shown >= include.limit %}{% break %}{% endif %}
   {% assign parts = r | split: "|" %}
   {% if parts.size < 3 %}{% continue %}{% endif %}
+  {% assign shown = shown | plus: 1 %}
   {% assign idx = parts[2] | plus: 0 %}
   {% if parts[1] == "post" %}
     {% assign post = site.posts[idx] %}
