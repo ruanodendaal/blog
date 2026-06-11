@@ -47,7 +47,9 @@ nav {
         display: flex;
     }
 
-    .nav__links {
+    // `nav .nav__links` (and the :checked rule) outrank the shared
+    // `.author-info { display: flex }` so the menu is actually hidden until tapped.
+    nav .nav__links {
         display: none;
         flex-basis: 100%;
         flex-direction: column;
@@ -61,7 +63,7 @@ nav {
     }
 
     // Open menu
-    .nav__checkbox:checked ~ .nav__links {
+    nav .nav__checkbox:checked ~ .nav__links {
         display: flex;
     }
 
