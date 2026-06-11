@@ -16,6 +16,20 @@ ol {
   font-size: 32px;
 }
 
+.post-list__meta {
+  font-size: 0.85rem;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  opacity: 0.55;
+}
+
+.external-icon {
+  width: 0.72em;
+  height: 0.72em;
+  vertical-align: -0.02em;
+  margin-left: 3px;
+}
+
 .post-list__item {
   padding: 24px 0;
   border-bottom: 1px solid #dedede;

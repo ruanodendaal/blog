@@ -1,0 +1,34 @@
+{% comment %} Speaking & press from _data/speaking.yml, grouped by type {% endcomment %}
+{% assign items = site.data.speaking %}
+{% if items and items != empty %}
+  {% assign types = "podcast,talk,newsletter,press" | split: "," %}
+  {% for t in types %}
+    {% assign group = items | where: "type", t %}
+    {% if group and group.size > 0 %}
+      {% case t %}
+        {% when 'podcast' %}{% assign heading = 'Podcasts' %}
+        {% when 'talk' %}{% assign heading = 'Talks' %}
+        {% when 'newsletter' %}{% assign heading = 'Newsletters' %}
+        {% when 'press' %}{% assign heading = 'Press' %}
+      {% endcase %}
+      <section class="speaking-group m-t-6">
+        <h2>{{ heading }}</h2>
+        <ul class="speaking-list">
+          {% for item in group %}
+          <li class="speaking-item">
+            {% if item.outlet or item.date %}
+            <p class="speaking-item__meta">{{ item.outlet }}{% if item.outlet and item.date %} · {% endif %}{{ item.date }}</p>
+            {% endif %}
+            <h3 class="speaking-item__title">
+              {% if item.url %}<a href="{{ item.url }}">{{ item.title }}</a>{% else %}{{ item.title }}{% endif %}
+            </h3>
+            {% if item.description %}<p class="subtitle">{{ item.description }}</p>{% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </section>
+    {% endif %}
+  {% endfor %}
+{% else %}
+  <p class="subtitle">Coming soon — podcasts, talks, newsletters and press will be listed here.</p>
+{% endif %}

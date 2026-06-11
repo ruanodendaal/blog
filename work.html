@@ -1,0 +1,21 @@
+---
+title: Work
+description: Products and projects Ruan Odendaal has shipped across AI, product and engineering.
+permalink: /work/
+image-name: profile/ruan.png
+---
+
+<div class="layout m-b-4">
+  <div class="layout__item layout__item--12-of-12 layout__item--8-of-12@m">
+    <h1>Work</h1>
+    <p class="subtitle">{{ page.description }}</p>
+  </div>
+</div>
+
+<div class="layout work-grid">
+  {% for item in site.data.work %}
+  <div class="layout__item layout__item--12-of-12 layout__item--6-of-12@m">
+    {% include work-card.html item=item %}
+  </div>
+  {% endfor %}
+</div>

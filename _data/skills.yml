@@ -1,0 +1,12 @@
+# Skills shown on /about/, grouped. Edit freely.
+- group: AI tooling & platforms
+  items: [Anthropic Claude (Claude Code, Subagents, Skills, Agent SDK), OpenAI (custom GPTs, MCP integrations), Model Context Protocol (MCP), Cursor, Agentic workflows, Multi-agent architecture, LLM evaluation, Prompt engineering, RAG, Semantic search]
+
+- group: Product & leadership
+  items: [AI product management, AI strategy, 0→1 product development, Product-led growth, Dual-track discovery & delivery, OKRs, JTBD, Board & investor communications, Due diligence]
+
+- group: Analytics & experimentation
+  items: [Amplitude, Mixpanel, Looker, FullStory, PostHog, A/B & multivariate testing, Onboarding funnels]
+
+- group: Delivery & collaboration
+  items: [Linear, Jira, Notion, Confluence, Slack, GitHub, Figma, Miro, FigJam]

@@ -1,0 +1,30 @@
+# Short-form posts (LinkedIn) — merged into the /writing/ stream by date.
+# Fields: title, date (YYYY-MM-DD), url, summary. These link out to LinkedIn.
+
+- title: "From one bot to an enterprise AI fleet"
+  date: 2026-03-11
+  url: "https://www.linkedin.com/posts/ruanodendaal_just-get-a-mac-mini-cool-now-do-it-for-activity-7437471486506057728-h8a0"
+  summary: >-
+    Scaling OpenClaw at Findable from a single Mac Mini bot to a governed,
+    SOC 2-compliant fleet for 40 people — trust levels, audit logs and fleet management.
+
+- title: "Speed without direction is just noise"
+  date: 2026-02-19
+  url: "https://www.linkedin.com/posts/ruanodendaal_everyones-obsessed-with-shipping-faster-activity-7430248849522413568-lDxh"
+  summary: >-
+    AI dropped the cost of building so low that shipping a feature means almost
+    nothing. The game was always outcomes over output — AI just made that impossible to ignore.
+
+- title: "Will ‘what AI tools do you use?’ become a hiring question?"
+  date: 2026-02-05
+  url: "https://www.linkedin.com/posts/ruanodendaal_there-seems-to-be-a-widening-gap-between-activity-7425153727054917632-HPdO"
+  summary: >-
+    A widening gap between people on capable AI tools and those stuck on
+    IT-approved basics — and what that means for hiring as the next wave of talent arrives AI-native.
+
+- title: "AI broke the SaaS pricing model"
+  date: 2025-12-05
+  url: "https://www.linkedin.com/posts/ruanodendaal_productmanagement-aipricing-saas-activity-7402675283989987328-Tloy"
+  summary: >-
+    AI features carry real marginal cost per run, so forcing them into flat
+    subscriptions bleeds money. Outcome-based pricing fits the value actually delivered.

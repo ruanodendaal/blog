@@ -25,11 +25,12 @@
   <body class="blog-odendaal-uk">
     <div class="wrap">
       <nav>
-        <a href="/">{% include logo.html %}</a>
-        <div class="author-info author-info--link">
-          <a href="https://www.linkedin.com/in/{{  site.data.authors.ruan.linkedin  }}">LinkedIn</a>
-          <a href="https://github.com/{{  site.data.authors.ruan.github  }}">GitHub</a>
-          <a href="https://x.com/{{  site.data.authors.ruan.twitter  }}">X</a>
+        <a href="/" class="nav__logo">{% include logo.html %}</a>
+        <div class="author-info author-info--link nav__links">
+          <a href="/work/"{% if page.url contains '/work' %} aria-current="page"{% endif %}>Work</a>
+          <a href="/writing/"{% if page.url contains '/writing' or page.layout == 'post' %} aria-current="page"{% endif %}>Writing</a>
+          <a href="/speaking/"{% if page.url contains '/speaking' %} aria-current="page"{% endif %}>Speaking</a>
+          <a href="/about/"{% if page.url contains '/about' %} aria-current="page"{% endif %}>About</a>
         </div>
       </nav>
       {{ content }}

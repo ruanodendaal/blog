@@ -1,0 +1,18 @@
+{% comment %} Vertical timeline from _data/experience.yml {% endcomment %}
+<ol class="timeline">
+  {% for job in site.data.experience %}
+  <li class="timeline__item">
+    <div class="timeline__content">
+      <p class="timeline__period">{{ job.period }}</p>
+      <h3 class="timeline__role">{{ job.role }}{% if job.company %} · {{ job.company }}{% endif %}</h3>
+      {% if job.location %}<p class="timeline__location subtitle">{{ job.location }}</p>{% endif %}
+      {% if job.summary %}<p class="timeline__summary">{{ job.summary }}</p>{% endif %}
+      {% if job.highlights %}
+      <ul>
+        {% for h in job.highlights %}<li>{{ h }}</li>{% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ol>

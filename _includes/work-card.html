@@ -1,0 +1,34 @@
+{% comment %} Visual product tile. Usage: {% include work-card.html item=item %} {% endcomment %}
+{% assign item = include.item %}
+{% assign primary = item.links[0].url %}
+<article class="work-card">
+  {% if primary %}<a class="work-card__media-link" href="{{ primary }}"{% if primary contains '//' %} target="_blank" rel="noopener noreferrer"{% endif %}>{% endif %}
+    <div class="work-card__media{% if item.media_dark %} work-card__media--dark{% endif %}{% if item.image_fit == 'contain' %} work-card__media--contain{% endif %}"{% if item.bg %} style="background: {{ item.bg }};"{% endif %}>
+      {% if item.logo or item.brands %}
+        <div class="brand-stack">
+          {% if item.logo %}<img class="brand-stack__main{% if item.logo.invert %} is-inverted{% endif %}" src="{{ item.logo.src }}" alt="{{ item.logo.alt | default: item.name }}" loading="lazy" />{% endif %}
+          {% if item.brands %}
+          <div class="brand-strip">
+            {% for b in item.brands %}{% if b.src %}<img class="brand-strip__logo{% if b.invert %} is-inverted{% endif %}" src="{{ b.src }}" alt="{{ b.alt }}" loading="lazy" />{% else %}<span class="brand-strip__text">{{ b.label }}</span>{% endif %}{% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      {% elsif item.image %}
+        <img src="{{ item.image }}" alt="{{ item.name }}" loading="lazy" />
+      {% endif %}
+    </div>
+  {% if primary %}</a>{% endif %}
+
+  <div class="work-card__body">
+    <h3 class="work-card__title">{{ item.name }}</h3>
+    {% if item.role or item.period %}
+    <p class="work-card__meta">{{ item.role }}{% if item.company and item.company != item.name %} · {{ item.company }}{% endif %}{% if item.period %} · {{ item.period }}{% endif %}</p>
+    {% endif %}
+    {% if item.summary %}<p class="work-card__summary">{{ item.summary }}</p>{% endif %}
+    {% if item.links and item.links.size > 0 %}
+    <p class="work-card__links">
+      {% for l in item.links %}<a class="header-links" href="{{ l.url }}"{% if l.url contains '//' %} target="_blank" rel="noopener noreferrer"{% endif %}>{{ l.label }} →</a>{% endfor %}
+    </p>
+    {% endif %}
+  </div>
+</article>

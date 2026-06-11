@@ -1,0 +1,68 @@
+# Career timeline — shown on /about/. Most recent first.
+# Fields: company, role, period, location, summary, highlights[]
+# Populated from CV (public-appropriate detail only).
+
+- company: Findable
+  role: Head of Product
+  period: "2025 – present"
+  summary: >-
+    Leading product and design building AI document intelligence for real
+    estate, hands-on in the codebase alongside engineering.
+
+- company: Nomad Homes / Remy AI
+  role: Director of Product
+  period: "2023 – 2025"
+  summary: >-
+    Took a 0→1 generative-AI communications product to 30 paying customers in
+    8 weeks; built and led a 5-person Product, Design and UXR team.
+
+- company: bp
+  role: Lead Product Manager (contract)
+  period: "2023"
+  summary: >-
+    Built proofs of concept in bp's innovation lab for African battery rental
+    and an EV self-service platform.
+
+- company: Luno
+  role: Senior Product Manager
+  period: "2022 – 2023"
+  summary: >-
+    Led product-led growth experiments localising a global crypto exchange for
+    the US market across iOS and Android.
+
+- company: Patchwork Health
+  role: Head of Product & Design
+  period: "2021 – 2022"
+  summary: >-
+    Scaled the product function in 5 months leading an 8-person team; expanded
+    NHS adoption from 40 to 60 sites serving 40k+ clinicians and took NPS from
+    7.2 to 9.2. Co-led product preparation for a Series B fundraise.
+
+- company: News UK
+  role: Head of Customer & Monetisation Platform
+  period: "2019 – 2021"
+  summary: >-
+    Led a 70-person platform team across three locations owning subscriptions,
+    billing and proposition management for The Times, The Sun and talkSPORT;
+    shipped early ML/AI at scale.
+
+- company: Pusher
+  role: UX Engineer / Product Manager
+  period: "2017 – 2019"
+  summary: >-
+    Owned Pusher.com, developer docs and the product dashboard as the company
+    grew from ~25 to ~120 people and $5M to $30M ARR.
+
+- company: Independent
+  role: Senior Product Manager
+  period: "2014 – 2017"
+  summary: >-
+    Independent product work with HSBC, the Financial Times, and product
+    consultancy.
+
+- company: News UK
+  role: Product Manager
+  period: "2011 – 2014"
+  summary: >-
+    Early-career product work across web and mobile products for The Times and
+    The Sun.

@@ -34,12 +34,35 @@
   }
 
   .post-nav,
-  .site-footer {
+  .site-footer,
+  .section-head,
+  .speaking-item {
     border-color: #333;
   }
 
-  .post-nav__title {
+  .timeline__item:not(:last-child)::before {
+    background: #333;
+  }
+  .timeline__item::after {
+    background: vars.$accent-dark;
+  }
+
+  .post-nav__title,
+  .speaking-item__title a,
+  .hero__role,
+  .btn--ghost {
     color: #9eaeef;
+  }
+
+  .nav__links a[aria-current="page"] {
+    border-bottom-color: vars.$accent-dark;
+  }
+
+  .work-card__media {
+    background: #1e1e1e;
+  }
+  .work-card__media-link:hover .work-card__media {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.6);
   }
 
   .tags li {

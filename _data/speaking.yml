@@ -1,0 +1,19 @@
+# Speaking & press — shown on /speaking/, grouped by type.
+# Fields: type (podcast|talk|newsletter|press), title, outlet, date, url, description, image
+# Add podcasts/talks/newsletters as they happen.
+
+- type: press
+  title: "AI Agents for Real Estate Agents"
+  outlet: "From the AI Trenches, by Arjun Rakesh K O"
+  date: "Oct 2025"
+  url: "https://www.linkedin.com/posts/ruanodendaal_ai-agents-for-real-estate-agents-with-ruan-activity-7389584105157591040-kMT-"
+  description: >-
+    An interview on building AI copilots for real estate agents, vertical-AI
+    build-vs-buy decisions, and the limits of AI autonomy in proptech.
+
+# TODO: add podcasts, talks and newsletters here, e.g.
+# - type: podcast
+#   title: "Episode title"
+#   outlet: "Show name"
+#   date: "2026"
+#   url: "https://..."

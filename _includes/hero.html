@@ -1,0 +1,17 @@
+{% assign me = site.data.authors.ruan %}
+<header class="hero">
+  <img
+    class="hero__avatar"
+    src="{{ site.cdn }}{{ me.avatar }}"
+    alt="Portrait of {{ me.name }}"
+  />
+  <div class="hero__content">
+    <h1 class="hero__name">{{ me.name }}</h1>
+    {% if me.headline %}<p class="hero__role">{{ me.headline }}</p>{% endif %}
+    {% if me.bio_short %}<p class="hero__bio">{{ me.bio_short }}</p>{% endif %}
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="/work/">See my work</a>
+      <a class="btn btn--ghost" href="mailto:{{ me.email }}">Get in touch&nbsp;→</a>
+    </div>
+  </div>
+</header>

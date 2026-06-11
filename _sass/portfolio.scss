@@ -1,0 +1,344 @@
+@use "sass:map";
+@use "variables" as vars;
+
+// ---------------------------------------------------------------------------
+// Navigation
+// ---------------------------------------------------------------------------
+.nav__links {
+  a {
+    margin: 0 8px;
+    text-decoration: none;
+    &[aria-current="page"] {
+      border-bottom: 2px solid vars.$accent;
+    }
+  }
+  @media (max-width: 700px) {
+    flex-direction: row;
+    flex-wrap: wrap;
+    a:first-child { margin-left: 0; }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Hero
+// ---------------------------------------------------------------------------
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  margin: 16px 0 64px;
+
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    margin: 8px 0 48px;
+  }
+
+  &__avatar {
+    flex: none;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    object-fit: cover;
+    @media (max-width: 700px) {
+      width: 116px;
+      height: 116px;
+    }
+  }
+
+  &__content {
+    max-width: 620px;
+  }
+
+  &__name {
+    margin: 0 0 6px;
+  }
+
+  &__role {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: vars.$accent-link;
+    margin: 0 0 18px;
+  }
+
+  &__bio {
+    margin: 0 0 28px;
+    opacity: 0.85;
+  }
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+  }
+}
+
+// Buttons
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 13px 24px;
+  border-radius: 10px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: transform 0.15s ease, background 0.15s ease, box-shadow 0.15s ease;
+
+  &--primary {
+    background: vars.$accent;
+    color: #fff;
+    &:hover {
+      background: vars.$accent-hover;
+      transform: translateY(-1px);
+      box-shadow: 0 6px 18px rgba(78, 66, 255, 0.3);
+    }
+  }
+
+  &--ghost {
+    color: vars.$accent-link;
+    padding-left: 8px;
+    padding-right: 8px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Section headers (homepage section + "All X →" link)
+// ---------------------------------------------------------------------------
+.section-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  border-bottom: 1px solid #dedede;
+  margin-bottom: 24px;
+
+  h2 { margin-top: 0; }
+}
+
+// ---------------------------------------------------------------------------
+// Work cards
+// ---------------------------------------------------------------------------
+.work-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+
+  // The visual zone — consistent across cover images, contain logos and gradients
+  &__media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 12px;
+    background: #f4f4f8;
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+
+    // Only the tile's own direct image fills it — nested brand logos size themselves
+    > img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  // Logo/mark sits centred and contained rather than filling the tile
+  &__media--contain > img {
+    width: auto;
+    height: auto;
+    max-width: 60%;
+    max-height: 38%;
+    object-fit: contain;
+  }
+
+  // Dark media zone (good for mixed-colour brand logos)
+  &__media--dark {
+    background: #16161a;
+  }
+
+  &__media-link {
+    display: block;
+    &:hover .work-card__media {
+      transform: translateY(-3px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.14);
+    }
+  }
+
+  &__body {
+    padding: 16px 2px 0;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 4px;
+    font-size: 1.4rem;
+  }
+
+  &__meta {
+    font-size: 0.9rem;
+    opacity: 0.6;
+    margin-bottom: 10px;
+  }
+
+  &__summary {
+    margin-bottom: 8px;
+  }
+
+  &__links a {
+    margin-right: 16px;
+    white-space: nowrap;
+  }
+}
+
+// Brand house: a main parent logo above a smaller row of sub-brands,
+// inside a (usually dark) media tile.
+.brand-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  padding: 24px;
+  width: 100%;
+
+  &__main {
+    height: 38px;
+    width: auto;
+    max-width: 62%;
+  }
+}
+
+.brand-strip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 22px;
+
+  &__logo {
+    height: 26px;
+    width: auto;
+  }
+
+  &__text {
+    color: #fff;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+}
+
+// Sub-brands sit smaller beneath the main logo
+.brand-stack .brand-strip {
+  gap: 18px;
+  .brand-strip__logo { height: 16px; }
+}
+
+// Turn a dark/mono logo white so it reads on a dark tile
+.is-inverted {
+  filter: brightness(0) invert(1);
+}
+
+// ---------------------------------------------------------------------------
+// Career timeline
+// ---------------------------------------------------------------------------
+.timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  &__item {
+    position: relative;
+    padding-left: 28px;
+    padding-bottom: 32px;
+
+    // Connecting vertical line (not on the last item)
+    &:not(:last-child)::before {
+      content: "";
+      position: absolute;
+      left: 5px;
+      top: 8px;
+      bottom: 0;
+      width: 2px;
+      background: #dedede;
+    }
+
+    // Dot marker
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 5px;
+      width: 12px;
+      height: 12px;
+      border-radius: 50%;
+      background: vars.$accent;
+    }
+
+    &:last-child {
+      padding-bottom: 0;
+    }
+  }
+
+  &__period {
+    font-size: 0.85rem;
+    font-weight: bold;
+    letter-spacing: 0.02em;
+    opacity: 0.6;
+    margin: 0 0 2px;
+  }
+
+  &__role {
+    margin-top: 0;
+    margin-bottom: 6px;
+    font-size: 1.25rem;
+  }
+
+  &__location {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+
+  &__summary {
+    margin-bottom: 0;
+  }
+}
+
+// ---------------------------------------------------------------------------
+// Speaking & press
+// ---------------------------------------------------------------------------
+.speaking-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.speaking-item {
+  padding: 20px 0;
+  border-bottom: 1px solid #dedede;
+
+  &__meta {
+    font-size: 0.9rem;
+    font-weight: bold;
+    opacity: 0.65;
+    margin-bottom: 4px;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 4px;
+    a {
+      color: vars.$accent-link;
+      text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+}

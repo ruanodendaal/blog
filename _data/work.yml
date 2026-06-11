@@ -1,0 +1,79 @@
+# Products & work — a visual showcase on /work/ and (featured: true) on the homepage.
+# The full career history lives in _data/experience.yml (shown on /about/).
+#
+# Fields:
+#   name, company, role, period, summary
+#   links     [{label, url}]   — first link is the card's primary target
+#   image     cover image, or a logo/mark (with image_fit: contain)
+#   image_fit "cover" (default) | "contain"
+#   bg        background behind a contain logo, or a gradient when there's no image
+#   brands    [{src, alt} or {label}]  — a strip of brand logos (overrides image)
+#   media_dark true → dark background for the media zone (good for mixed-colour logos)
+#   featured  true → shown on the homepage
+
+- name: Findable AI
+  company: Findable AI
+  role: Head of Product
+  period: "2025 – present"
+  summary: >-
+    AI asset intelligence for real estate — ingestion, classification, lease
+    abstraction and portfolio-level querying for commercial real estate professionals.
+  links:
+    - { label: "Visit Findable", url: "https://www.findable.ai" }
+  image: /assets/images/work/findable-white.svg
+  image_fit: contain
+  bg: "#00205B"
+  featured: true
+
+- name: Remy AI
+  company: Nomad Homes
+  role: Director of Product
+  period: "2023 – 2025"
+  summary: >-
+    A 0→1 generative-AI assistant for real estate agents — voice, SMS, WhatsApp
+    and email in one place. Idea to 30 paying customers in 8 weeks.
+  links:
+    - { label: "Visit Remy AI", url: "https://www.getremy.ai" }
+  image: /assets/images/work/remy.png
+  featured: true
+
+- name: News UK
+  company: News UK
+  role: Head of Customer & Monetisation Platform
+  period: "2019 – 2021"
+  summary: >-
+    Led a 70-person platform team across three global locations — owning
+    subscriptions, billing and proposition management behind The Times, The Sun
+    and talkSPORT, and shipping early ML/AI at scale.
+  links: []
+  media_dark: true
+  logo: { src: /assets/images/work/news-uk.svg, alt: "News UK" }
+  brands:
+    - { src: /assets/images/work/the-times.svg, alt: "The Times", invert: true }
+    - { src: /assets/images/work/sun.svg, alt: "The Sun" }
+    - { src: /assets/images/work/talksport.svg, alt: "talkSPORT" }
+  featured: true
+
+- name: Bear Notes MCP Server
+  company: Open source
+  role: Creator
+  period: "2025"
+  summary: >-
+    A custom Model Context Protocol server giving Claude direct access to 1,000+
+    personal markdown notes.
+  links:
+    - { label: "Read the write-up", url: "/2025/03/12/bear-notes-mcp-server.html" }
+    - { label: "GitHub", url: "https://github.com/ruanodendaal/bear-mcp-server" }
+  image: https://d3eeewfm2t14hd.cloudfront.net/blog/posts/ai_brain.png
+  featured: true
+
+- name: OpenClaw
+  company: Personal AI engineering
+  role: Creator
+  period: "2025"
+  summary: >-
+    Three domain-specific Claude agents run in production for personal use —
+    schedule, fitness and travel — over Telegram with a shared memory architecture.
+  links: []
+  image: /assets/images/work/openclaw.png
+  featured: false

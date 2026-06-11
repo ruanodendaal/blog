@@ -5,4 +5,56 @@ ruan:
   twitter: ruan_odendaal
   linkedin: ruanodendaal
   avatar: profile/ruan.png
+  email: ruan@odendaal.uk
+
+  # Portfolio hero / about.
+  headline: Head of Product at Findable
+  tagline: AI-native product leader who ships code
+  location: London, UK
+
+  # Hero (homepage) — one or two punchy sentences.
+  bio_short: >-
+    AI-native product leader who ships code — and regularly presents to the
+    board. 15 years across VC-backed startups and £1B+ enterprises, now building
+    AI asset intelligence for real estate at Findable.
+
+  # /about page — markdown supported.
+  bio_long: |
+    I'm an AI-native product leader who ships code. For 15 years I've built AI
+    and platform products across VC-backed startups and £1B+ enterprises,
+    deliberately moving between leadership and hands-on IC — from leading a
+    70-person platform team back to being a builder, and forward again. Engineer
+    by training, operator by trade.
+
+    The last three years I've been all-in on applied AI, shipping production
+    GenAI products at Findable and Nomad Homes (Remy AI). I build on the
+    Anthropic stack rather than just using it: a custom MCP server, a set of
+    Claude agents I run daily, internal Claude skills my team relies on, and
+    production code shipped via Cursor and Claude Code — with evals to keep model
+    behaviour honest.
+
+    I've owned strategy and commercial outcomes as much as the product itself. At
+    Findable I lead an end-to-end remit spanning product, design, pricing and
+    positioning, and led the strategy rewrite that put the business on a
+    net-expansion path. I'm a regular board-level presenter — I've reported
+    product strategy and metrics to the board across four VC-backed companies, and
+    ran six-weekly C-suite reviews on a £400M subscription business at News UK.
+
+    I've spent most of my career alongside founders — as at home in an
+    architecture conversation as a strategy one, in a scrappy early-stage team or
+    a complex enterprise. If you're solving hard problems with frontier models and
+    want someone who turns insight into shipped product, let's talk.
+
+  education:
+    - "BSc Software Engineering · University of the West of England, Bristol"
+
+  certifications:
+    - "Machine Learning Foundations for Product Managers · Duke University · Jun 2025"
+    - "Generative AI for Everyone · DeepLearning.AI · Jan 2025"
+
+  languages:
+    - "English — native"
+    - "Afrikaans — native"
+    - "German — elementary"
+
   intro: My personal blog covering work experiences and thoughts.

@@ -1,0 +1,46 @@
+---
+title: Writing
+description: Essays on building with frontier AI, product leadership, and how senior PMs operate.
+permalink: /writing/
+image-name: profile/ruan.png
+---
+
+<div class="layout m-b-4">
+  <div class="layout__item layout__item--12-of-12 layout__item--8-of-12@m">
+    <h1>Writing</h1>
+    <p class="subtitle">{{ page.description }}</p>
+  </div>
+</div>
+
+<div class="layout">
+  {% for post in site.posts %} {% if post.tags contains "featured" %}
+  <div class="layout__item layout__item--12-of-12 layout__item--6-of-12@m">
+    <a href="{{ post.url }}">
+      <div
+        class="card m-b-1 m-b-0@m"
+        style="background-image: linear-gradient(90deg, rgba(0,0,0,.5), rgba(0,0,0,.6)), url({{ site.cdn }}{{ post.image-name }})"
+      >
+        <div>
+          <h3 class="card__heading">{{ post.title }}</h3>
+          <p>{{ post.description }}</p>
+        </div>
+        <p class="bold m-b-0 o-1">
+          By {{ site.data.authors[post.author].name }}
+        </p>
+      </div>
+    </a>
+  </div>
+  {% endif %} {% endfor %}
+</div>
+
+<div class="layout">
+  <div
+    class="m-t-6 layout__item layout__item--12-of-12 layout__item--7-of-12@m"
+  >
+    <div class="section-head">
+      <h2>All writing</h2>
+      <a class="header-links" href="https://www.linkedin.com/in/{{ site.data.authors.ruan.linkedin }}">More on LinkedIn →</a>
+    </div>
+    {% include writing-list.html %}
+  </div>
+</div>

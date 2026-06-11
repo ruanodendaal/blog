@@ -1,0 +1,57 @@
+---
+title: About
+description: Ruan Odendaal — product leader shipping production AI, with 15 years across VC-backed startups and £1B+ enterprises.
+permalink: /about/
+image-name: profile/ruan.png
+---
+
+{% assign me = site.data.authors.ruan %}
+<div class="layout">
+  <div class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered">
+    <h1>About</h1>
+    {% if me.headline %}<p class="subtitle">{{ me.headline }}{% if me.location %} · {{ me.location }}{% endif %}</p>{% endif %}
+    <div class="post-body">
+      {% if me.bio_long %}{{ me.bio_long | markdownify }}{% endif %}
+    </div>
+  </div>
+
+  <div class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered m-t-6">
+    <h2>Experience</h2>
+    {% include timeline.html %}
+  </div>
+
+  {% if site.data.skills %}
+  <div class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered m-t-6">
+    <h2>Skills &amp; toolset</h2>
+    {% for group in site.data.skills %}
+    <div class="skills-group m-b-2">
+      <h3 class="skills-group__heading">{{ group.group }}</h3>
+      <ul class="tags">
+        {% for item in group.items %}<li>{{ item }}</li>{% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if me.education or me.certifications %}
+  <div class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered m-t-6">
+    {% if me.education %}
+    <h2>Education</h2>
+    <ul>{% for e in me.education %}<li>{{ e }}</li>{% endfor %}</ul>
+    {% endif %}
+    {% if me.certifications %}
+    <h2 class="m-t-4">Certifications</h2>
+    <ul>{% for c in me.certifications %}<li>{{ c }}</li>{% endfor %}</ul>
+    {% endif %}
+    {% if me.languages %}
+    <h2 class="m-t-4">Languages</h2>
+    <ul>{% for l in me.languages %}<li>{{ l }}</li>{% endfor %}</ul>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered m-t-6">
+    <p>Want to chat? Send me an email at <a class="header-links" href="mailto:{{ me.email }}">{{ me.email }}</a>.</p>
+  </div>
+</div>

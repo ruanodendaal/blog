@@ -1,0 +1,45 @@
+{% comment %}
+  Unified writing stream: on-site essays (site.posts) + short-form LinkedIn
+  posts (site.data.notes), merged and sorted by date (newest first).
+  Each row is tagged so the format/destination is clear; LinkedIn opens
+  in a new tab.
+{% endcomment %}
+{% assign rows = "" %}
+{% for post in site.posts %}
+  {% unless post.tags contains "test" %}
+    {% capture row %}{{ post.date | date: "%Y-%m-%d" }}|post|{{ forloop.index0 }}{% endcapture %}
+    {% assign rows = rows | append: row | append: ";;" %}
+  {% endunless %}
+{% endfor %}
+{% for note in site.data.notes %}
+  {% capture row %}{{ note.date | date: "%Y-%m-%d" }}|note|{{ forloop.index0 }}{% endcapture %}
+  {% assign rows = rows | append: row | append: ";;" %}
+{% endfor %}
+{% assign rows = rows | split: ";;" | sort | reverse %}
+
+<ul class="post-list">
+{% for r in rows %}
+  {% assign parts = r | split: "|" %}
+  {% if parts.size < 3 %}{% continue %}{% endif %}
+  {% assign idx = parts[2] | plus: 0 %}
+  {% if parts[1] == "post" %}
+    {% assign post = site.posts[idx] %}
+    <li class="post-list__item m-b-0">
+      <a href="{{ post.url }}">
+        <p class="post-list__meta m-b-1">{{ post.date | date: "%-d %b %Y" }} · Essay · {{ post.content | number_of_words | divided_by: 200 | plus: 1 }} min read</p>
+        <h3 class="m-t-0">{{ post.title }}</h3>
+        <p class="subtitle m-b-2">{{ post.description }}</p>
+      </a>
+    </li>
+  {% else %}
+    {% assign note = site.data.notes[idx] %}
+    <li class="post-list__item m-b-0">
+      <a href="{{ note.url }}" target="_blank" rel="noopener noreferrer">
+        <p class="post-list__meta m-b-1">{{ note.date | date: "%-d %b %Y" }} · LinkedIn {% include icon-external.html %}</p>
+        <h3 class="m-t-0">{{ note.title }}</h3>
+        <p class="subtitle m-b-2">{{ note.summary }}</p>
+      </a>
+    </li>
+  {% endif %}
+{% endfor %}
+</ul>
