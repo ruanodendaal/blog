@@ -1,3 +1,5 @@
+@use "variables" as vars;
+
 // Code styling - because beautiful code snippets deserve love too
 
 // Inline code styling
@@ -15,7 +17,7 @@ code {
 pre {
   background-color: #f8f9fa !important;
   border-radius: 4px !important;
-  border-left: 4px solid #4e42ff !important; // Using your accent color for a nice touch
+  border-left: 4px solid vars.$accent !important; // Using your accent color for a nice touch
   font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;
   font-size: 0.9em !important;
   line-height: 1.5 !important;

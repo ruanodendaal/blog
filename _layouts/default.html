@@ -2,24 +2,15 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta property="description" name="description" content="{{ page.description }}" />
-    <meta property="og:title" content="{{ page.title }}" />
-    <meta property="og:description" name="description" content="{{ page.description }}" />
-    <meta property="og:type" content="website" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:site_name" content="{{ site.name }}" />
-    <meta key="og:url" property="og:url" content="{{ site.url }}" />
-    <meta key="og:image" property="og:image" content="{{ site.cdn }}{{ page.image-name }}" />
-
-    <meta key="twitter:card" name="summary_large_image" content="summary_large_image" />
-    <meta key="twitter:site" name="@{{  site.data.authors.ruan.twitter  }}" content="@{{  site.data.authors.ruan.twitter  }}" />
-    <meta key="twitter:creator" name="@{{  site.data.authors.ruan.twitter  }}" content="@{{  site.data.authors.ruan.twitter  }}" />
-    <meta key="twitter:title" name="{{ page.title }}" content="{{ page.title }}" />
-    <meta key="twitter:description" name="{{ page.description }}" content="{{ page.description }}" />
-    <meta key="twitter:image" name="{{ page.image-name }}" content="{{ site.cdn }}{{ page.image-name }}" />
-    
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html',''}}">
+
+    {% comment %}
+      SEO meta, Open Graph, Twitter cards and JSON-LD. The page `image`
+      (absolute CDN URL) is derived from `image-name` by _plugins/seo_image.rb.
+    {% endcomment %}
+    {% seo %}
+    {% feed_meta %}
+
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/manifest/apple-touch-icon.png">
@@ -30,10 +21,6 @@
     <meta name="msapplication-TileColor" content="#00aba9">
     <meta name="theme-color" content="#ffffff">
     <meta name="color-scheme" content="light dark">
-    <title>Ruan Odendaal - {{ page.title }}</title>
-    {% if jekyll.environment == 'production' %}
-      {% include analytics.html %}
-    {% endif %}
   </head>
   <body class="blog-odendaal-uk">
     <div class="wrap">
@@ -46,6 +33,16 @@
         </div>
       </nav>
       {{ content }}
+      <footer class="site-footer">
+        <div class="author-info author-info--link">
+          <a href="/tags/">Tags</a>
+          <a href="{{ '/feed.xml' | relative_url }}">RSS</a>
+          <a href="https://www.linkedin.com/in/{{  site.data.authors.ruan.linkedin  }}">LinkedIn</a>
+          <a href="https://github.com/{{  site.data.authors.ruan.github  }}">GitHub</a>
+          <a href="https://x.com/{{  site.data.authors.ruan.twitter  }}">X</a>
+        </div>
+        <p class="footer-copy">© {{ site.time | date: "%Y" }} {{ site.data.authors.ruan.name }}</p>
+      </footer>
     </div>
     <script src="{{ site.baseurl }}/assets/js/code-blocks.js"></script>
   </body>

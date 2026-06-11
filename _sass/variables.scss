@@ -1,5 +1,15 @@
 $spacing-unit: 8px;
 
+// Brand / accent colours
+$accent: #4e42ff;        // primary accent (borders, cards, focus)
+$accent-link: #203fb9;   // body link colour
+$accent-visited: #65327f;// visited / hover link colour
+$accent-hover: #2412d7;  // nav hover underline
+$accent-dark: #bb86fc;   // accent used in dark mode
+
+// Reading column width
+$reading-width: 680px;
+
 $breakpoints: (m: 700px, l: 1000px) !default;
 
 $layout-columns: (12) !default;

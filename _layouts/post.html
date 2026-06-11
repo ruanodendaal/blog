@@ -19,7 +19,10 @@ layout: default
           />
           <p>Written by {{ author.name }}</p>
         </div>
-        <p class="m-b-1">{{ page.date | date: "%d %B %Y" }}</p>
+        <p class="m-b-1">
+          {{ page.date | date: "%d %B %Y" }}
+          <span class="reading-time">· {{ content | number_of_words | divided_by: 200 | plus: 1 }} min read</span>
+        </p>
       </div>
       {% endif %}
     </div>
@@ -37,16 +40,33 @@ layout: default
     <div class="m-t-6 m-b-2">
       <ul class="tags">
         {% for tag in page.tags %}
-        <li class="m-l-1 m-r-1 m-t-1 m-b-1">{{ tag }}</li>
+        <li class="m-l-1 m-r-1 m-t-1 m-b-1"><a href="/tags/#{{ tag | slugify }}">{{ tag }}</a></li>
         {% endfor %}
       </ul>
     </div>
   </div>
 
+  <nav
+    class="post-nav m-t-6 layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered"
+  >
+    {% if page.previous %}
+    <a class="post-nav__link post-nav__link--prev" href="{{ page.previous.url }}">
+      <span class="post-nav__label">← Older</span>
+      <span class="post-nav__title">{{ page.previous.title }}</span>
+    </a>
+    {% endif %}
+    {% if page.next %}
+    <a class="post-nav__link post-nav__link--next" href="{{ page.next.url }}">
+      <span class="post-nav__label">Newer →</span>
+      <span class="post-nav__title">{{ page.next.title }}</span>
+    </a>
+    {% endif %}
+  </nav>
+
   <div
     class="m-t-8 layout__item layout__item--12-of-12 layout__item--7-of-12@m layout__item--centered"
   >
     <h3 class="post-list__heading">Further reading</h3>
-    {% include post-list.html %}
+    {% include related-posts.html %}
   </div>
 </div>

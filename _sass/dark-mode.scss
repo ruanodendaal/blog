@@ -20,16 +20,25 @@
   }
 
   blockquote p {
-    border-left-color: #bb86fc;
+    border-left-color: vars.$accent-dark;
   }
 
   pre {
     background-color: #1e1e1e !important;
-    border-left-color: #bb86fc !important;
+    border-left-color: vars.$accent-dark !important;
   }
 
   .post a,
   p .header-links {
+    color: #9eaeef;
+  }
+
+  .post-nav,
+  .site-footer {
+    border-color: #333;
+  }
+
+  .post-nav__title {
     color: #9eaeef;
   }
 
@@ -60,7 +69,7 @@
 
   th {
     background-color: #1e1e1e !important;
-    border-bottom-color: #bb86fc !important;
+    border-bottom-color: vars.$accent-dark !important;
   }
 
   td {

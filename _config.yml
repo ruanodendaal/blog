@@ -1,17 +1,37 @@
 name: Ruan's blog
+title: Ruan Odendaal
+description: Writing on AI product management, applied AI, and product leadership by Ruan Odendaal, Head of Product at Findable.
 url: https://odendaal.uk
 baseurl: ""
 cdn: https://d3eeewfm2t14hd.cloudfront.net/blog/
+lang: en_GB
+
 plugins:
   - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+# jekyll-seo-tag / social metadata
+author: Ruan Odendaal
+logo: https://d3eeewfm2t14hd.cloudfront.net/blog/profile/ruan.png
+twitter:
+  username: ruan_odendaal
+  card: summary_large_image
+social:
+  name: Ruan Odendaal
+  links:
+    - https://www.linkedin.com/in/ruanodendaal
+    - https://github.com/ruanodendaal
+    - https://x.com/ruan_odendaal
+
+# jekyll-feed
+feed:
+  path: feed.xml
 
 sass:
   style: compressed
   sourcemap: never
 
-exclude_from_sitemap: true
-
-# Exclude test posts from sitemap and RSS feeds
 defaults:
   - scope:
       type: "pages"
@@ -21,14 +41,3 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-  - scope:
-      type: "posts"
-      path: "_posts"
-    values:
-      sitemap: true
-  - scope:
-      type: "posts"
-      path: "_posts"
-    values:
-      sitemap: false
-    condition: "page.tags contains 'test'"

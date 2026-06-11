@@ -1,15 +1,22 @@
+@use "variables" as vars;
+
 .card {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background: #4e42ff;
+  background: vars.$accent;
   background-size: cover;
   color: white;
   padding: 32px;
   min-height: 350px;
   border-radius: 4px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
   & a {
     text-decoration: none;
+  }
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
   }
   @media all and (min-width: 760px) {
     padding: 48px;

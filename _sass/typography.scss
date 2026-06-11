@@ -1,51 +1,60 @@
 @use "sass:map";
 @use "variables" as vars;
 
+// Headings use a clean rem-based modular scale (base 1rem = 18px),
+// stepping up slightly on wider viewports.
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.2;
+}
+
 h1 {
-  font-size: 28.83px;
+  font-size: 2rem;
   margin-bottom: 16px;
   @media (min-width: map.get(vars.$breakpoints, m)) {
-    font-size: 39.81px;
+    font-size: 2.5rem;
   }
 }
 
 h2 {
-  font-size: 25.63px;
+  font-size: 1.6rem;
   margin-top: 2rem;
   margin-bottom: 8px;
   @media (min-width: map.get(vars.$breakpoints, m)) {
-    font-size: 33.18px;
+    font-size: 1.95rem;
   }
 }
 
 h3 {
-  font-size: 22.78px;
+  font-size: 1.35rem;
   margin-top: 2rem;
   margin-bottom: 16px;
   @media (min-width: map.get(vars.$breakpoints, m)) {
-    font-size: 27.65px;
+    font-size: 1.55rem;
   }
 }
 
 h4 {
-  font-size: 20.25px;
+  font-size: 1.15rem;
   margin-top: 2rem;
   margin-bottom: 16px;
   @media (min-width: map.get(vars.$breakpoints, m)) {
-    font-size: 23.04px;
+    font-size: 1.25rem;
   }
 }
 
 p {
   margin-bottom: 24px;
-  line-height: 1.5;
+  line-height: 1.6;
   opacity: 0.85;
   .header-links {
     text-decoration: underline;
-    color: #203fb9;
+    color: vars.$accent-link;
     &:hover,
     &:visited {
-      color: #65327f;
+      color: vars.$accent-visited;
     }
   }
 }

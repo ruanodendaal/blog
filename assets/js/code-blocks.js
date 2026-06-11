@@ -1,14 +1,11 @@
 // Enhancing code blocks with copy functionality and language detection
 
 document.addEventListener('DOMContentLoaded', function() {
+  // Code-block appearance (background, accent border, language label) is
+  // handled entirely in _sass/code.scss + _sass/dark-mode.scss. This script
+  // only adds the copy button, language detection, and table enhancements.
   const isDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-  // Fix for GitHub Pages styling conflicts
-  document.querySelectorAll("pre").forEach(function(pre) {
-    pre.style.backgroundColor = isDark ? "#1e1e1e" : "#f8f9fa";
-    pre.style.borderLeft = isDark ? "4px solid #bb86fc" : "4px solid #4e42ff";
-    pre.style.position = "relative";
-    pre.style.overflow = "auto";
-  });
+
   // Find all pre > code blocks
   const codeBlocks = document.querySelectorAll('pre > code');
   

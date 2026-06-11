@@ -29,7 +29,6 @@ This repo holds the source for my blog. Posts focus on:
 
 - LinkedIn: [linkedin.com/in/ruanodendaal](https://www.linkedin.com/in/ruanodendaal/)
 - Other repos: [bear-mcp-server](https://github.com/ruanodendaal/bear-mcp-server) — the MCP server from the Bear Notes post above
-- AI twin: [RuanGPT](https://chatgpt.com/g/g-68878e3386f88191a4ea4927b76cedce-ruangpt-ai-twin)
 
 ## Tech
 
