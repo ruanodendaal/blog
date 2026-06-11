@@ -1,0 +1,29 @@
+# Ruan Odendaal
+
+> AI-native product leader who ships code — and regularly presents to the board. 15 years across VC-backed startups and £1B+ enterprises, currently Head of Product at Findable AI, building AI asset intelligence for real estate.
+
+This is the personal portfolio and writing of Ruan Odendaal (odendaal.uk). It covers his work shipping production AI products, his career across product, design and engineering, and his writing on AI product management and product leadership. Based in London, UK.
+
+## Pages
+- [About](https://odendaal.uk/about/): Full bio, vertical career timeline (Findable, Nomad Homes/Remy AI, bp, Luno, Patchwork Health, News UK, Pusher), skills, languages and certifications.
+- [Work](https://odendaal.uk/work/): Products and projects shipped — Findable AI (AI asset intelligence for real estate), Remy AI (0→1 GenAI assistant for real estate agents), News UK (70-person platform team behind The Times, The Sun, talkSPORT), Bear Notes MCP Server, and OpenClaw.
+- [Writing](https://odendaal.uk/writing/): Essays and short-form posts on building with frontier AI, applied AI and product leadership.
+- [Speaking](https://odendaal.uk/speaking/): Podcasts, talks, newsletters and press appearances.
+
+## Selected writing
+- [Why meetings still suck (and how AI might finally save us)](https://odendaal.uk/2025/06/26/fix-bad-meetings-with-ai.html): Why better inputs, clearer context and agentic AI could finally fix meetings.
+- [Connecting Bear Notes to Claude](https://odendaal.uk/2025/03/12/bear-notes-mcp-server.html): Building a custom Model Context Protocol (MCP) server to give Claude access to 1,000+ personal notes.
+- [My user manual](https://odendaal.uk/2023/10/05/user-manual.html): How Ruan works and leads.
+- [Truly listening during product development](https://odendaal.uk/2020/11/17/listening-to-your-customers.html)
+
+## Expertise
+AI product management, applied/generative AI, Model Context Protocol (MCP), Claude Code, agentic and multi-agent systems, LLM evaluation, 0→1 product development, product-led growth, AI strategy, board and investor communications.
+
+## Contact
+- Email: ruan@odendaal.uk
+- LinkedIn: https://www.linkedin.com/in/ruanodendaal
+- GitHub: https://github.com/ruanodendaal
+
+## Feeds
+- [RSS feed](https://odendaal.uk/feed.xml)
+- [Sitemap](https://odendaal.uk/sitemap.xml)
