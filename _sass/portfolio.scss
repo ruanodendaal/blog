@@ -2,24 +2,6 @@
 @use "variables" as vars;
 
 // ---------------------------------------------------------------------------
-// Navigation
-// ---------------------------------------------------------------------------
-.nav__links {
-  a {
-    margin: 0 8px;
-    text-decoration: none;
-    &[aria-current="page"] {
-      border-bottom: 2px solid vars.$accent;
-    }
-  }
-  @media (max-width: 700px) {
-    flex-direction: row;
-    flex-wrap: wrap;
-    a:first-child { margin-left: 0; }
-  }
-}
-
-// ---------------------------------------------------------------------------
 // Hero
 // ---------------------------------------------------------------------------
 .hero {

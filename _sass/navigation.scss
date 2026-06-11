@@ -1,9 +1,75 @@
+@use "variables" as vars;
+
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 24px 0;
     & a {
         text-decoration: none;
+    }
+}
+
+.nav__links a {
+    margin: 0 8px;
+    text-decoration: none;
+    &[aria-current="page"] {
+        border-bottom: 2px solid vars.$accent;
+    }
+}
+
+// Hamburger toggle — visible on mobile only (checkbox-driven, no JS needed)
+.nav__burger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+
+    span {
+        display: block;
+        width: 22px;
+        height: 2px;
+        border-radius: 2px;
+        background: currentColor;
+        transition: transform 0.2s ease, opacity 0.2s ease;
+    }
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-wrap: wrap;
+    }
+
+    .nav__burger {
+        display: flex;
+    }
+
+    .nav__links {
+        display: none;
+        flex-basis: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 8px 0 4px;
+
+        a {
+            margin: 10px 0;
+            font-size: 1.05rem;
+        }
+    }
+
+    // Open menu
+    .nav__checkbox:checked ~ .nav__links {
+        display: flex;
+    }
+
+    // Animate burger → X when open
+    .nav__checkbox:checked ~ .nav__burger {
+        span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+        span:nth-child(2) { opacity: 0; }
+        span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
     }
 }
 

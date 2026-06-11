@@ -27,6 +27,10 @@
     <div class="wrap">
       <nav>
         <a href="/" class="nav__logo">{% include logo.html %}</a>
+        <input type="checkbox" id="nav-toggle" class="nav__checkbox" hidden>
+        <label for="nav-toggle" class="nav__burger" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </label>
         <div class="author-info author-info--link nav__links">
           <a href="/work/"{% if page.url contains '/work' %} aria-current="page"{% endif %}>Work</a>
           <a href="/writing/"{% if page.url contains '/writing' or page.layout == 'post' %} aria-current="page"{% endif %}>Writing</a>
