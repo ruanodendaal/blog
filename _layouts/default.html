@@ -13,7 +13,7 @@
     {% include structured-data.html %}
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/index.css?v={{ site.time | date: '%s' }}">
     <link rel="apple-touch-icon" sizes="180x180" href="/assets/manifest/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/assets/manifest/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/manifest/favicon-16x16.png">
@@ -50,6 +50,6 @@
         <p class="footer-copy">© {{ site.time | date: "%Y" }} {{ site.data.authors.ruan.name }}</p>
       </footer>
     </div>
-    <script src="{{ site.baseurl }}/assets/js/code-blocks.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/code-blocks.js?v={{ site.time | date: '%s' }}"></script>
   </body>
 </html>
